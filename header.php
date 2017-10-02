@@ -17,14 +17,14 @@
         <div class="container">
           <div class="row">
             <div class="col-sm-3 cambridge-white-logo">
-              <a href="<?php echo home_url();?>"><img src="<?php bloginfo('template_directory')?>/images/Logo_White.png" height="50px"></a>
+              <a href="<?php echo home_url();?>"><img src="<?php bloginfo('template_directory')?>/images/codadevlogo_white.png" height="50px"></a>
             </div>  <!-- end cambridge-logo-white -->
             <div class="col-sm-9">
               <div class="tn-inner-table">
                 <div class="row">
                   <div class="col-sm-12">
                     <span class="glyphicon glyphicon-earphone ph-icon" aria-hidden="true"></span>
-                    <span class="navi-ph">877.922.2538</span>
+                    <span class="navi-ph">718.649.1666</span>
                     <a class="s-icon" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/cambridgeresources/">
                       <span class="fa fa-facebook-official"></span>
                     </a>
@@ -42,14 +42,6 @@
                       <a class="header-navicon">&#9776;</a>
                       <a class="home" href="<?php echo home_url();?>">
                         <div class="header-navi-title">HOME</div>
-                        <div class="header-navi-selector"></div>
-                      </a>
-                      <a class="products" href="<?php echo home_url();?>/products/">
-                        <div class="header-navi-title">PRODUCTS</div>
-                        <div class="header-navi-selector"></div>
-                      </a>
-                      <a class="about" href="<?php echo home_url();?>/about/">
-                        <div class="header-navi-title">ABOUT</div>
                         <div class="header-navi-selector"></div>
                       </a>
                       <a class="team" href="<?php echo home_url();?>/team/">
@@ -84,8 +76,8 @@
               <span>OUR BRANDS</span>
             </div>
             <div class="nav2-logo nav2-coda">
-              <a href="http://www.codaresources.com/" target="_blank" rel="noopener noreferrer">
-                <img src="<?php bloginfo('template_directory')?>/images/CODA DEV_LOGO.png" height="40px" width="50px">
+              <a href="http://www.cambridgeresources.com/" target="_blank" rel="noopener noreferrer">
+                <img src="<?php bloginfo('template_directory')?>/images/cambridgelogo_blue.png" height="35px" >
               </a>
             </div>
             <div class="nav2-logo nav2-amram">
