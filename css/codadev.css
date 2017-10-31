@@ -553,3 +553,19 @@ input:focus::-ms-input-placeholder {
 .index-videonav-box:hover .index-videonav-text {
   color: #70B4D8;
 }
+section {
+  height: 100vh;
+}
+.video-background {
+  /*position: fixed;*/
+  /*top:0; right:0; bottom: 0; left: 0;*/
+  z-index: -99;
+}
+.video-foreground, .video-background iframe {
+  /*position: absolute;*/
+  /*top: 0;*/
+  /*left: 0;*/
+  width: 100%;
+  min-height: 100vh;
+  pointer-events: none;
+}
