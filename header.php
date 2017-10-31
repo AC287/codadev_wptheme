@@ -95,11 +95,11 @@
                 <img src="<?php bloginfo('template_directory')?>/images/pipedecor_logo.png" height="12px">
               </a>
             </div>
-            <div class="nav2-search">
+            <!-- <div class="nav2-search">
               <span class="glyphicon glyphicon-search nav2-search-icon"></span>
               <span class="nav2-search-txt">PRODUCT SEARCH</span>
               <input type="text" class="search-field" placeholder="KEYWORD / PHRASE / PART#"></input>
-            </div>
+            </div> -->
           </div>  <!-- end tn2-overall-table class  -->
         </div>  <!--  end top-nav2 container  -->
       </div> <!-- end top-nav2 -->

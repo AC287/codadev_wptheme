@@ -512,3 +512,44 @@ input:focus::-ms-input-placeholder {
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
 }
+/* - - - INDEX video navigation section - - - */
+.index-videonav-container {
+  margin-top: 15px;
+  /*margin-bottom: 15px;*/
+  background-color: #003DA5;
+  /*padding: 20px 0px 20px 0px;*/
+}
+.index-videonav-overallcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.index-videonav-box {
+  position: relative;
+  width: 150px;
+  text-align: center;
+  padding: 30px 0px 20px 0px;
+  cursor: pointer;
+}
+.index-videonav-box img {
+  padding-bottom: 10px;
+  width: 100px;
+}
+.index-videonav-hoverimg {
+  display: none;
+}
+.index-videonav-text {
+  /*margin-top: 15px;*/
+  color: #fff;
+  font-family: 'Questrial' sans-serif;
+  font-size: 14pt;
+}
+.index-videonav-box:hover .index-videonav-defaultimg {
+  display: none;
+}
+.index-videonav-box:hover .index-videonav-hoverimg, .index-videonav-text {
+  display: inline;
+}
+.index-videonav-box:hover .index-videonav-text {
+  color: #70B4D8;
+}
