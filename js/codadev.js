@@ -1,8 +1,32 @@
+// 2. This code loads the IFrame Player API code asynchronously.
+var tag = document.createElement('script');
+
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+// Create YouTube player(s) after the API code downloads.
+var playerrd;
+var playermanufacturing;
+var playerqa;
+var playersourcing;
+var playerscm;
+var playerpartnership;
+
+function onYouTubeIframeAPIReady() {
+    playerrd = new YT.Player('playerrd');
+    playermanufacturing = new YT.Player('playermanufacturing');
+    playerqa = new YT.Player('playerqa');
+    playersourcing = new YT.Player('playersourcing');
+    playerscm = new YT.Player('playerscm');
+    playerpartnership = new YT.Player('playerpartnership');
+}
+
 jQuery(document).ready(function($) {
   // $('.top-nav').click(function(){
   //   console.log('CLICKED HEHEHE');
   // })
-  console.log('Today is 9/11');
+  console.log('Today is 11/1');
 
   $('.header-navicon').click(function(){
     var x = $('#header-rnav').attr('class').split(' ');
@@ -78,6 +102,15 @@ jQuery(document).ready(function($) {
       $('.team-modal').css('display', 'none');
       $('.team-modal-content').css('display','none');
     }
+  })
+
+  /* - - - VIDEO PLAYER - - - */
+
+  $('section').click(function(){
+    var playSection = 'player'+$(this).attr('id').split('-')[1];
+    // console.log(clickedSection);
+    // console.log(playSection);
+    playSection.playVideo();
   })
 
 })
