@@ -1,9 +1,10 @@
+/*
 // 2. This code loads the IFrame Player API code asynchronously.
-var tag = document.createElement('script');
-
-tag.src = "https://www.youtube.com/iframe_api";
-var firstScriptTag = document.getElementsByTagName('script')[0];
-firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+// var tag = document.createElement('script');
+//
+// tag.src = "https://www.youtube.com/iframe_api";
+// var firstScriptTag = document.getElementsByTagName('script')[0];
+// firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
 // Create YouTube player(s) after the API code downloads.
 var playerrd;
@@ -22,11 +23,59 @@ function onYouTubeIframeAPIReady() {
     playerpartnership = new YT.Player('playerpartnership');
 }
 
+// 2. This code loads the IFrame Player API code asynchronously.
+var tag = document.createElement('script');
+
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+// 3. This function creates an <iframe> (and YouTube player)
+//    after the API code downloads.
+var player;
+function onYouTubeIframeAPIReady() {
+  player = new YT.Player('player', {
+    // height: '390',
+    // width: '640',
+    videoId: 'H5Iw617dwZc',
+    events: {
+      'onReady': onPlayerReady,
+      // 'onStateChange': onPlayerStateChange
+    },
+    playerVars: {
+      'controls': 0,
+      'loop': 1,
+      'rel': 0,
+      'playlist': 'H5Iw617dwZc',
+    }
+  });
+}
+
+// 4. The API will call this function when the video player is ready.
+function onPlayerReady(event) {
+  event.target.playVideo();
+}
+
+// 5. The API calls this function when the player's state changes.
+//    The function indicates that when playing a video (state=1),
+//    the player should play for six seconds and then stop.
+var done = false;
+function onPlayerStateChange(event) {
+  if (event.data == YT.PlayerState.PLAYING && !done) {
+    setTimeout(stopVideo, 6000);
+    done = true;
+  }
+}
+function stopVideo() {
+  player.stopVideo();
+}
+*/
+
 jQuery(document).ready(function($) {
   // $('.top-nav').click(function(){
   //   console.log('CLICKED HEHEHE');
   // })
-  console.log('Today is 11/1');
+  console.log('Today is 11/2 (a)');
 
   $('.header-navicon').click(function(){
     var x = $('#header-rnav').attr('class').split(' ');
@@ -105,12 +154,31 @@ jQuery(document).ready(function($) {
   })
 
   /* - - - VIDEO PLAYER - - - */
-
-  $('section').click(function(){
-    var playSection = 'player'+$(this).attr('id').split('-')[1];
-    // console.log(clickedSection);
-    // console.log(playSection);
-    playSection.playVideo();
-  })
-
+/*
+source: https://stackoverflow.com/questions/12522291/pausing-youtube-iframe-api-in-javascript
+*/
+  var yt_int, yt_players={}, initYT = function() {
+    $(".ytplayer").each(function() {
+      yt_players[this.id] = new YT.Player(this.id);
+    });
+  };
+  $.getScript("//www.youtube.com/player_api", function() {
+      yt_int = setInterval(function(){
+          if(typeof YT === "object"){
+              initYT();
+              clearInterval(yt_int);
+          }
+      },500);
+  });
+  $('section').hover(
+    function(){
+      var curSection = 'player' + $(this).attr('id').split('-')[1];
+      console.log(curSection);
+      yt_players[curSection].playVideo();
+    },
+    function(){
+      var curSection = 'player' + $(this).attr('id').split('-')[1];
+      yt_players[curSection].pauseVideo();
+    }
+  )
 })

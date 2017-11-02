@@ -154,42 +154,49 @@
 <section id="index-rd">
 	<div class="video-background">
 		<div class="video-foreground">
-			<iframe src="https://www.youtube.com/embed/dnOKgwbU7lg?enablejsapi=1&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;loop=1&amp;playlist=dnOKgwbU7lg" frameborder="0" allowfullscreen id="playerrd"></iframe>
+			<iframe src="https://www.youtube.com/embed/dnOKgwbU7lg?enablejsapi=1&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;loop=1&amp;playlist=dnOKgwbU7lg" frameborder="0" allowfullscreen id="playerrd" class="ytplayer"></iframe>
+			<!-- <div id="playerrd"></div> -->
+			<!-- <div id="player" class="yplayer"></div> -->
 		</div>	<!--  end video foreground  -->
 	</div>	<!--  end video background  -->
 </section>
 <section id="index-manufacturing">
 	<div class="video-background">
 		<div class="video-foreground">
-			<iframe src="https://www.youtube.com/embed/9qc296X7778?enablejsapi=1&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;loop=1&amp;playlist=9qc296X7778" frameborder="0" allowfullscreen id="playermanufacturing"></iframe>
+			<iframe src="https://www.youtube.com/embed/9qc296X7778?enablejsapi=1&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;loop=1&amp;playlist=9qc296X7778" frameborder="0" allowfullscreen id="playermanufacturing" class="ytplayer"></iframe>
+			<!-- <div id="playermanufacturing" class="yplayer"></div> -->
 		</div>	<!--  end video-foreground  -->
 	</div>	<!--  end video-background  -->
 </section>
 <section id="index-qa">
 	<div class="video-background">
 		<div class="video-foreground">
-			<iframe src="https://www.youtube.com/embed/H5Iw617dwZc?enablejsapi=1&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;loop=1&amp;playlist=H5Iw617dwZc" frameborder="0" allowfullscreen id="playerqa"></iframe>
+			<iframe src="https://www.youtube.com/embed/H5Iw617dwZc?enablejsapi=1&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;loop=1&amp;playlist=H5Iw617dwZc" frameborder="0" allowfullscreen id="playerqa" class="ytplayer"></iframe>
+			<!-- <div id="playerqa" class="yplayer"></div> -->
 		</div>	<!--  end video-foreground  -->
 	</div>	<!--  end video-background  -->
 </section>
 <section id="index-sourcing">
 	<div class="video-background">
 		<div class="video-foreground">
-			<iframe src="https://www.youtube.com/embed/94HO1ByRswM?enablejsapi=1&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;loop=1&amp;playlist=94HO1ByRswM" frameborder="0" allowfullscreen id="playersourcing"></iframe>
+			<iframe src="https://www.youtube.com/embed/94HO1ByRswM?enablejsapi=1&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;loop=1&amp;playlist=94HO1ByRswM" frameborder="0" allowfullscreen id="playersourcing" class="ytplayer"></iframe>
+			<!-- <div id="playersourcing" class="yplayer"></div> -->
 		</div>	<!--  end video-foreground  -->
 	</div>	<!--  end video-background  -->
 </section>
 <section id="index-scm">
 	<div class="video-background">
 		<div class="video-foreground">
-			<iframe src="https://www.youtube.com/embed/N3tmypB2YlY?enablejsapi=1&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;loop=1&amp;playlist=N3tmypB2YlY" frameborder="0" allowfullscreen id="playerscm"></iframe>
+			<iframe src="https://www.youtube.com/embed/N3tmypB2YlY?enablejsapi=1&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;loop=1&amp;playlist=N3tmypB2YlY" frameborder="0" allowfullscreen id="playerscm" class="ytplayer"></iframe>
+			<!-- <div id="playerscm" class="yplayer"></div> -->
 		</div>	<!--  end video-foreground  -->
 	</div>	<!--  end video-background  -->
 </section>
 <section id="index-partnership">
 	<div class="video-background">
 		<div class="video-foreground">
-			<iframe src="https://www.youtube.com/embed/cO048hRcbC4?enablejsapi=1&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;loop=1&amp;playlist=cO048hRcbC4" frameborder="0" allowfullscreen id="playerpartnership"></iframe>
+			<iframe src="https://www.youtube.com/embed/cO048hRcbC4?enablejsapi=1&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;loop=1&amp;playlist=cO048hRcbC4" frameborder="0" allowfullscreen id="playerpartnership" class="ytplayer"></iframe>
+			<!-- <div id="playerpartnership" class="yplayer"></div> -->
 		</div>	<!--  end video-foreground  -->
 	</div>	<!--  end video-background  -->
 </section>
