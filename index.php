@@ -106,6 +106,7 @@
 	<div class="container">
 		<div class="index-videonav-overallcontainer">
 			<div class="index-videonav-box coda-rd">
+				<!-- <?php //include("images/codanavi/rd.svg"); ?> -->
 				<img class="index-videonav-defaultimg" src="<?php bloginfo('template_directory')?>/images/codanavi/rd4x.png">
 				<img class="index-videonav-hoverimg" src="<?php bloginfo('template_directory')?>/images/codanavi/h_rd4x.png">
 				<div class="index-videonav-text">
@@ -115,6 +116,7 @@
 			<div class="index-videonav-box coda-manufacturing">
 				<img class="index-videonav-defaultimg" src="<?php bloginfo('template_directory')?>/images/codanavi/manufacturing4x.png">
 				<img class="index-videonav-hoverimg" src="<?php bloginfo('template_directory')?>/images/codanavi/h_manufacturing4x.png">
+				<!-- <?php //include("images/codanavi/manufacturing.svg"); ?> -->
 				<div class="index-videonav-text">
 					<p>Manufacturing</p>
 				</div>
@@ -122,6 +124,7 @@
 			<div class="index-videonav-box coda-qa">
 				<img class="index-videonav-defaultimg" src="<?php bloginfo('template_directory')?>/images/codanavi/qa4x.png">
 				<img class="index-videonav-hoverimg" src="<?php bloginfo('template_directory')?>/images/codanavi/h_qa4x.png">
+				<!-- <?php //include("images/codanavi/qa.svg"); ?> -->
 				<div class="index-videonav-text">
 					<p>Quality Assurance</p>
 				</div>
@@ -129,6 +132,7 @@
 			<div class="index-videonav-box coda-sourcing">
 				<img class="index-videonav-defaultimg" src="<?php bloginfo('template_directory')?>/images/codanavi/sourcing4x.png">
 				<img class="index-videonav-hoverimg" src="<?php bloginfo('template_directory')?>/images/codanavi/h_sourcing4x.png">
+				<!-- <?php //include("images/codanavi/sourcing.svg"); ?> -->
 				<div class="index-videonav-text">
 					<p>Sourcing</p>
 				</div>
@@ -136,6 +140,7 @@
 			<div class="index-videonav-box coda-scm">
 				<img class="index-videonav-defaultimg" src="<?php bloginfo('template_directory')?>/images/codanavi/supplychainmanagement4x.png">
 				<img class="index-videonav-hoverimg" src="<?php bloginfo('template_directory')?>/images/codanavi/h_supplychainmanagement4x.png">
+				<!-- <?php //include("images/codanavi/scm.svg"); ?> -->
 				<div class="index-videonav-text">
 					<p>Supply Chain Management</p>
 				</div>
@@ -143,6 +148,7 @@
 			<div class="index-videonav-box coda-partnership">
 				<img class="index-videonav-defaultimg" src="<?php bloginfo('template_directory')?>/images/codanavi/partnership4x.png">
 				<img class="index-videonav-hoverimg" src="<?php bloginfo('template_directory')?>/images/codanavi/h_partnership4x.png">
+				<!-- <?php //include("images/codanavi/partnership.svg"); ?> -->
 				<div class="index-videonav-text">
 					<p>Partnership</p>
 				</div>
