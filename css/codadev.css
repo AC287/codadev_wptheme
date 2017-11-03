@@ -393,7 +393,7 @@ input:focus::-ms-input-placeholder {
           transform: translate3d(0, 0, 0);
   position: relative;
   width: 12.5%;
-  height: 25vh;
+  height: 40vh;
   min-height: 250px;
   color: #fff;
   overflow: hidden;
@@ -555,7 +555,7 @@ input:focus::-ms-input-placeholder {
 }
 
 .index-video-title {
-  margin: 25px 0px 15px 0px;
+  margin: 50px 0px 0px 0px;
   text-align: center;
 }
 .ivt-imgcontainer {

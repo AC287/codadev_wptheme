@@ -129,5 +129,29 @@ source: https://stackoverflow.com/questions/12522291/pausing-youtube-iframe-api-
       source: https://stackoverflow.com/questions/6677035/jquery-scroll-to-element
       source: https://jsfiddle.net/cse_tushar/Dxtyu/141/
     */
-  })
+  });
+
+  // function onScroll(event){
+  //   var scrollPos = $(document).scrollTop();
+  //   $('.index-video-section').each(function () {
+  //       var curSection = $(this);
+  //       var refElement = 'index-'+$(curSection.attr('id')).split('-')[1];
+  //       if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+  //           $('#menu-center ul li a').removeClass("active");
+  //           curSection.addClass("active");
+  //           yt_players[curSection].playVideo();
+  //       }
+  //       else{
+  //           curSection.removeClass("active");
+  //           yt_players[curSection].playVideo();
+  //       }
+  //   });
+  // }
+  $(document).on('scroll',onScrollFunction);
+
+  function onScrollFunction(event) {
+    // console.log($(document).scrollTop());
+    console.log($('#index-rd').position());
+    // console.log(event);
+  }
 })

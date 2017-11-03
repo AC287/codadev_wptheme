@@ -164,7 +164,7 @@
 	<div class="ivt-text">
 		<span>RESEARCH &amp; DEVELOPMENT</span>
 	</div>
-	<div class="ivt-underline">
+	<!-- <div class="ivt-underline"> -->
 	</div>
 </div>
 <section class="index-video-section" id="index-rd">
@@ -183,7 +183,7 @@
 	<div class="ivt-text">
 		<span>MANUFACTURING</span>
 	</div>
-	<div class="ivt-underline">
+	<!-- <div class="ivt-underline"> -->
 	</div>
 </div>
 <section class="index-video-section" id="index-manufacturing">
@@ -201,7 +201,7 @@
 	<div class="ivt-text">
 		<span>QUALITY ASSURANCE</span>
 	</div>
-	<div class="ivt-underline">
+	<!-- <div class="ivt-underline"> -->
 	</div>
 </div>
 <section class="index-video-section" id="index-qa">
@@ -219,7 +219,7 @@
 	<div class="ivt-text">
 		<span>SOURCING</span>
 	</div>
-	<div class="ivt-underline">
+	<!-- <div class="ivt-underline"> -->
 	</div>
 </div>
 <section class="index-video-section" id="index-sourcing">
@@ -237,7 +237,7 @@
 	<div class="ivt-text">
 		<span>SUPPLY CHAIN MANAGEMENT</span>
 	</div>
-	<div class="ivt-underline">
+	<!-- <div class="ivt-underline"> -->
 	</div>
 </div>
 <section class="index-video-section" id="index-scm">
@@ -255,7 +255,7 @@
 	<div class="ivt-text">
 		<span>PARTNERSHIP</span>
 	</div>
-	<div class="ivt-underline">
+	<!-- <div class="ivt-underline"> -->
 	</div>
 </div>
 <section class="index-video-section" id="index-partnership">
