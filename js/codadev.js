@@ -2,7 +2,7 @@ jQuery(document).ready(function($) {
   // $('.top-nav').click(function(){
   //   console.log('CLICKED HEHEHE');
   // })
-  console.log('Today is 9/11');
+  console.log('Today is 11/3 (a)');
 
   $('.header-navicon').click(function(){
     var x = $('#header-rnav').attr('class').split(' ');
@@ -80,4 +80,54 @@ jQuery(document).ready(function($) {
     }
   })
 
+  /* - - - VIDEO PLAYER - - - */
+/*
+source: https://stackoverflow.com/questions/12522291/pausing-youtube-iframe-api-in-javascript
+*/
+  var yt_int, yt_players={}, initYT = function() {
+    $(".ytplayer").each(function() {
+      yt_players[this.id] = new YT.Player(this.id);
+    });
+  };
+  $.getScript("//www.youtube.com/player_api", function() {
+      yt_int = setInterval(function(){
+          if(typeof YT === "object"){
+              initYT();
+              clearInterval(yt_int);
+          }
+      },750);
+  });
+  // $('section').hover(
+  //   function(){
+  //     var curSection = 'player' + $(this).attr('id').split('-')[1];
+  //     console.log(curSection);
+  //     yt_players[curSection].playVideo();
+  //   },
+  //   function(){
+  //     var curSection = 'player' + $(this).attr('id').split('-')[1];
+  //     yt_players[curSection].pauseVideo();
+  //   }
+  // );
+
+  /* - - - SCROLL TO - - - */
+  $('.index-videonav-box').click(function(){
+    var curCategory = $(this).attr('class').split(' ')[1].split('-')[1];
+    var scrollToSection = '#index-' + curCategory;
+    var playThis = 'player'+curCategory;
+    $('html, body').animate ({
+      scrollTop: $(scrollToSection).offset().top
+    }, 2000);
+    $('.index-video-section').each(function(){
+      var curSection = 'player'+$(this).attr('id').split('-')[1];
+      $(this).removeClass('active');
+      yt_players[curSection].pauseVideo();
+    });
+    $(this).addClass('active');
+    yt_players[playThis].playVideo();
+
+    /*
+      source: https://stackoverflow.com/questions/6677035/jquery-scroll-to-element
+      source: https://jsfiddle.net/cse_tushar/Dxtyu/141/
+    */
+  })
 })

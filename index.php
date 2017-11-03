@@ -106,43 +106,49 @@
 	<div class="container">
 		<div class="index-videonav-overallcontainer">
 			<div class="index-videonav-box coda-rd">
-				<img class="index-videonav-defaultimg" src="<?php bloginfo('template_directory')?>/images/codanavi/rd4x.png">
+				<!-- <?php //include("images/codanavi/rd.svg"); ?> -->
+				<img class="index-videonav-defaultimg" src="<?php bloginfo('template_directory')?>/images/codanavi/rd_0.png">
 				<img class="index-videonav-hoverimg" src="<?php bloginfo('template_directory')?>/images/codanavi/h_rd4x.png">
 				<div class="index-videonav-text">
 					<p>R &amp; D</p>
 				</div>
 			</div>
 			<div class="index-videonav-box coda-manufacturing">
-				<img class="index-videonav-defaultimg" src="<?php bloginfo('template_directory')?>/images/codanavi/manufacturing4x.png">
+				<img class="index-videonav-defaultimg" src="<?php bloginfo('template_directory')?>/images/codanavi/manufacturing_0.png">
 				<img class="index-videonav-hoverimg" src="<?php bloginfo('template_directory')?>/images/codanavi/h_manufacturing4x.png">
+				<!-- <?php //include("images/codanavi/manufacturing.svg"); ?> -->
 				<div class="index-videonav-text">
 					<p>Manufacturing</p>
 				</div>
 			</div>
 			<div class="index-videonav-box coda-qa">
-				<img class="index-videonav-defaultimg" src="<?php bloginfo('template_directory')?>/images/codanavi/qa4x.png">
+				<img class="index-videonav-defaultimg" src="<?php bloginfo('template_directory')?>/images/codanavi/qa_0.png">
 				<img class="index-videonav-hoverimg" src="<?php bloginfo('template_directory')?>/images/codanavi/h_qa4x.png">
+				<!-- <?php //include("images/codanavi/qa.svg"); ?> -->
 				<div class="index-videonav-text">
 					<p>Quality Assurance</p>
 				</div>
 			</div>
 			<div class="index-videonav-box coda-sourcing">
-				<img class="index-videonav-defaultimg" src="<?php bloginfo('template_directory')?>/images/codanavi/sourcing4x.png">
+				<img class="index-videonav-defaultimg" src="<?php bloginfo('template_directory')?>/images/codanavi/sourcing_0.png">
 				<img class="index-videonav-hoverimg" src="<?php bloginfo('template_directory')?>/images/codanavi/h_sourcing4x.png">
+				<!-- <?php //include("images/codanavi/sourcing.svg"); ?> -->
 				<div class="index-videonav-text">
 					<p>Sourcing</p>
 				</div>
 			</div>
 			<div class="index-videonav-box coda-scm">
-				<img class="index-videonav-defaultimg" src="<?php bloginfo('template_directory')?>/images/codanavi/supplychainmanagement4x.png">
+				<img class="index-videonav-defaultimg" src="<?php bloginfo('template_directory')?>/images/codanavi/scm_0.png">
 				<img class="index-videonav-hoverimg" src="<?php bloginfo('template_directory')?>/images/codanavi/h_supplychainmanagement4x.png">
+				<!-- <?php //include("images/codanavi/scm.svg"); ?> -->
 				<div class="index-videonav-text">
 					<p>Supply Chain Management</p>
 				</div>
 			</div>
 			<div class="index-videonav-box coda-partnership">
-				<img class="index-videonav-defaultimg" src="<?php bloginfo('template_directory')?>/images/codanavi/partnership4x.png">
+				<img class="index-videonav-defaultimg" src="<?php bloginfo('template_directory')?>/images/codanavi/partnership_0.png">
 				<img class="index-videonav-hoverimg" src="<?php bloginfo('template_directory')?>/images/codanavi/h_partnership4x.png">
+				<!-- <?php //include("images/codanavi/partnership.svg"); ?> -->
 				<div class="index-videonav-text">
 					<p>Partnership</p>
 				</div>
@@ -151,45 +157,112 @@
 	</div> <!--  end container  -->
 </div>  <!--  end index-videonav-container  -->
 
-<section id="index-rd">
+<div class="index-video-title">
+	<div class="ivt-imgcontainer">
+		<img src="<?php bloginfo('template_directory')?>/images/codanavi/rd_0.png">
+	</div>
+	<div class="ivt-text">
+		<span>RESEARCH &amp; DEVELOPMENT</span>
+	</div>
+	<div class="ivt-underline">
+	</div>
+</div>
+<section class="index-video-section" id="index-rd">
 	<div class="video-background">
 		<div class="video-foreground">
-			<iframe src="https://www.youtube.com/embed/dnOKgwbU7lg?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1&amp;loop=1&amp;playlist=dnOKgwbU7lg" frameborder="0" allowfullscreen></iframe>
+			<iframe src="https://www.youtube.com/embed/dnOKgwbU7lg?enablejsapi=1&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;loop=1&amp;playlist=dnOKgwbU7lg" frameborder="0" allowfullscreen id="playerrd" class="ytplayer"></iframe>
+			<!-- <div id="playerrd"></div> -->
+			<!-- <div id="player" class="yplayer"></div> -->
 		</div>	<!--  end video foreground  -->
 	</div>	<!--  end video background  -->
 </section>
-<section id="index-manufacturing">
+<div class="index-video-title">
+	<div class="ivt-imgcontainer">
+		<img src="<?php bloginfo('template_directory')?>/images/codanavi/manufacturing_0.png">
+	</div>
+	<div class="ivt-text">
+		<span>MANUFACTURING</span>
+	</div>
+	<div class="ivt-underline">
+	</div>
+</div>
+<section class="index-video-section" id="index-manufacturing">
 	<div class="video-background">
 		<div class="video-foreground">
-			<iframe src="https://www.youtube.com/embed/9qc296X7778?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1&amp;loop=1&amp;playlist=9qc296X7778" frameborder="0" allowfullscreen></iframe>
+			<iframe src="https://www.youtube.com/embed/9qc296X7778?enablejsapi=1&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;loop=1&amp;playlist=9qc296X7778" frameborder="0" allowfullscreen id="playermanufacturing" class="ytplayer"></iframe>
+			<!-- <div id="playermanufacturing" class="yplayer"></div> -->
 		</div>	<!--  end video-foreground  -->
 	</div>	<!--  end video-background  -->
 </section>
-<section id="index-qa">
+<div class="index-video-title">
+	<div class="ivt-imgcontainer">
+		<img src="<?php bloginfo('template_directory')?>/images/codanavi/qa_0.png">
+	</div>
+	<div class="ivt-text">
+		<span>QUALITY ASSURANCE</span>
+	</div>
+	<div class="ivt-underline">
+	</div>
+</div>
+<section class="index-video-section" id="index-qa">
 	<div class="video-background">
 		<div class="video-foreground">
-			<iframe src="https://www.youtube.com/embed/H5Iw617dwZc?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1&amp;loop=1&amp;playlist=H5Iw617dwZc" frameborder="0" allowfullscreen></iframe>
+			<iframe src="https://www.youtube.com/embed/H5Iw617dwZc?enablejsapi=1&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;loop=1&amp;playlist=H5Iw617dwZc" frameborder="0" allowfullscreen id="playerqa" class="ytplayer"></iframe>
+			<!-- <div id="playerqa" class="yplayer"></div> -->
 		</div>	<!--  end video-foreground  -->
 	</div>	<!--  end video-background  -->
 </section>
-<section id="index-sourcing">
+<div class="index-video-title">
+	<div class="ivt-imgcontainer">
+		<img src="<?php bloginfo('template_directory')?>/images/codanavi/sourcing_0.png">
+	</div>
+	<div class="ivt-text">
+		<span>SOURCING</span>
+	</div>
+	<div class="ivt-underline">
+	</div>
+</div>
+<section class="index-video-section" id="index-sourcing">
 	<div class="video-background">
 		<div class="video-foreground">
-			<iframe src="https://www.youtube.com/embed/94HO1ByRswM?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1&amp;loop=1&amp;playlist=94HO1ByRswM" frameborder="0" allowfullscreen></iframe>
+			<iframe src="https://www.youtube.com/embed/94HO1ByRswM?enablejsapi=1&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;loop=1&amp;playlist=94HO1ByRswM" frameborder="0" allowfullscreen id="playersourcing" class="ytplayer"></iframe>
+			<!-- <div id="playersourcing" class="yplayer"></div> -->
 		</div>	<!--  end video-foreground  -->
 	</div>	<!--  end video-background  -->
 </section>
-<section id="index-scm">
+<div class="index-video-title">
+	<div class="ivt-imgcontainer">
+		<img src="<?php bloginfo('template_directory')?>/images/codanavi/scm_0.png">
+	</div>
+	<div class="ivt-text">
+		<span>SUPPLY CHAIN MANAGEMENT</span>
+	</div>
+	<div class="ivt-underline">
+	</div>
+</div>
+<section class="index-video-section" id="index-scm">
 	<div class="video-background">
 		<div class="video-foreground">
-			<iframe src="https://www.youtube.com/embed/N3tmypB2YlY?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1&amp;loop=1&amp;playlist=N3tmypB2YlY" frameborder="0" allowfullscreen></iframe>
+			<iframe src="https://www.youtube.com/embed/N3tmypB2YlY?enablejsapi=1&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;loop=1&amp;playlist=N3tmypB2YlY" frameborder="0" allowfullscreen id="playerscm" class="ytplayer"></iframe>
+			<!-- <div id="playerscm" class="yplayer"></div> -->
 		</div>	<!--  end video-foreground  -->
 	</div>	<!--  end video-background  -->
 </section>
-<section id="index-partnership">
+<div class="index-video-title">
+	<div class="ivt-imgcontainer">
+		<img src="<?php bloginfo('template_directory')?>/images/codanavi/partnership_0.png">
+	</div>
+	<div class="ivt-text">
+		<span>PARTNERSHIP</span>
+	</div>
+	<div class="ivt-underline">
+	</div>
+</div>
+<section class="index-video-section" id="index-partnership">
 	<div class="video-background">
 		<div class="video-foreground">
-			<iframe src="https://www.youtube.com/embed/cO048hRcbC4?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1&amp;loop=1&amp;playlist=cO048hRcbC4" frameborder="0" allowfullscreen></iframe>
+			<iframe src="https://www.youtube.com/embed/cO048hRcbC4?enablejsapi=1&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;loop=1&amp;playlist=cO048hRcbC4" frameborder="0" allowfullscreen id="playerpartnership" class="ytplayer"></iframe>
+			<!-- <div id="playerpartnership" class="yplayer"></div> -->
 		</div>	<!--  end video-foreground  -->
 	</div>	<!--  end video-background  -->
 </section>
