@@ -393,7 +393,7 @@ input:focus::-ms-input-placeholder {
           transform: translate3d(0, 0, 0);
   position: relative;
   width: 12.5%;
-  height: 25vh;
+  height: 40vh;
   min-height: 250px;
   color: #fff;
   overflow: hidden;
@@ -512,7 +512,9 @@ input:focus::-ms-input-placeholder {
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
 }
+
 /* - - - INDEX video navigation section - - - */
+
 .index-videonav-container {
   margin-top: 15px;
   /*margin-bottom: 15px;*/
@@ -555,7 +557,7 @@ input:focus::-ms-input-placeholder {
 }
 
 .index-video-title {
-  margin: 25px 0px 15px 0px;
+  margin: 50px 0px 0px 0px;
   text-align: center;
 }
 .ivt-imgcontainer {
@@ -577,8 +579,13 @@ input:focus::-ms-input-placeholder {
   width: 150px;
   border-bottom: 3px solid #0d1778;
 }
-section {
+/*- - - VIDEO SECTION - - - */
+/*.index-allvideo-container {
+  outline-style: none;
+}*/
+.index-allvideo-container section {
   height: 100vh;
+  position: relative;
 }
 .video-background {
   /*position: fixed;*/
@@ -589,7 +596,63 @@ section {
   /*position: absolute;*/
   /*top: 0;*/
   /*left: 0;*/
-  width: 100vw;
+  width: 100%;
   min-height: 100vh;
   pointer-events: none;
+}
+.index-video-textbox {
+  position: absolute;
+  width: 35%;
+  /*float: right;*/
+  top: 25%;
+  /*left:80px;*/
+  background: rgba(255,255,255,0.8);
+}
+.ivt2-left {
+  left: 80px;
+}
+.ivt2-right {
+  right: 80px;
+}
+.ivt2-vol {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 16pt;
+  cursor: pointer;
+}
+.ivt2-container {
+  padding: 25px;
+  display: block;
+}
+.ivt2-title {
+  /*display: block;*/
+  text-align: center;
+  font-family: 'bignoodletitlingregular';
+  font-size: 25pt;
+  font-weight: bold;
+  line-height: 25pt;
+  /*text-decoration: underline;*/
+  /*text-decoration-color: #003DA5;*/
+  /*border-bottom: 4px solid #003DA5;*/
+}
+.ivt2-underline {
+  margin: auto;
+  width: 50px;
+  border-bottom: 4px solid #003DA5;
+}
+.ivt2-text {
+  padding-top: 10px;
+  font-family: 'Questrial' sans-serif;
+}
+.ivt2t-smb {
+  color: #003DA5;
+}
+.ivt2t-md {
+  font-size: 14pt;
+  color: #003DA5;
+}
+.ivt2t-lg {
+  font-size: 16pt;
+  color: #003DA5;
 }
