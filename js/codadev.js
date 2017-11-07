@@ -2,11 +2,11 @@ jQuery(document).ready(function($) {
   // $('.top-nav').click(function(){
   //   console.log('CLICKED HEHEHE');
   // })
-  console.log('Today is 11/3 (a)');
+  console.log('Today is 11/7 (a)');
 
   $('.header-navicon').click(function(){
     var x = $('#header-rnav').attr('class').split(' ');
-    console.log(x.length);
+    // console.log(x.length);
     if(x.length===1){
       $('#header-rnav').addClass('responsive');
     }
@@ -119,10 +119,10 @@ source: https://stackoverflow.com/questions/12522291/pausing-youtube-iframe-api-
     }, 2000);
     $('.index-video-section').each(function(){
       var curSection = 'player'+$(this).attr('id').split('-')[1];
-      $(this).removeClass('active');
+      // $(this).removeClass('active');
       yt_players[curSection].pauseVideo();
     });
-    $(this).addClass('active');
+    // $(this).addClass('active');
     yt_players[playThis].playVideo();
 
     /*
@@ -132,49 +132,39 @@ source: https://stackoverflow.com/questions/12522291/pausing-youtube-iframe-api-
   });
 
   $(document).on("scroll",onScroll);
+  // console.log($('.index-video-title').height());
 
   function onScroll(event){
     var scrollPos = $(document).scrollTop();
-    // var scriptTriggerPos = Math.round($('.index-allvideo-container').position().top);
-    // console.log(scrollPos);
-    // console.log($('.index-video-section').position().top);
-    // console.log(Math.round($('.index-allvideo-container').position().top));
-    // if((scriptTriggerPos - scrollPos) < 0) {
-    //   // $('.index-video-section').each(function(){
-    //   //   var curSection = $(this);
-    //   //   var refElement = $()
-    //   // })
-    //   var rdPos = $('#index-rd').height();
-    //   var manufacturingPos = $('#index-manufacturing').height();
-    //   var qaPos = $('#index-qa').height();
-    //   var sourcingPos = $('#index-sourcing').height();
-    //   var scmPos = $('#index-scm').height();
-    //   var partnershipPos = $('#index-partnership').height();
-    //
-    // }
-    $('.index-video-section').each(function () {
+    var scriptTriggerPos = Math.round($('.index-allvideo-container').position().top);
+    if((scriptTriggerPos - scrollPos) < 0) {
+
+      $('.index-video-section').each(function () {
         var curSection = $(this);
+        var bufferHeight = $('.index-video-title').height();
         // console.log(curSection.attr('id'));
-        var refElement = $('#index-'+(curSection.attr('id')).split('-')[1]);
-        console.log(scrollPos);
-        console.log(refElement.position().top);
-        if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
-            $('.index-video-section').removeClass("active");
-            refElement.addClass("active");
-            yt_players[refElement].playVideo();
+        var secId = curSection.attr('id').split('-')[1];
+        var refElement = $('#index-'+secId);
+        var playerId = 'player'+secId;
+        // console.log(scrollPos);
+        // console.log(refElement.position().top);
+        if ((refElement.position().top - bufferHeight) <= scrollPos && (refElement.position().top + refElement.height() - bufferHeight) > scrollPos) {
+          $('.index-video-section').removeClass("active");
+          refElement.addClass("active");
+          yt_players[playerId].playVideo();
         }
         else{
-            refElement.removeClass("active");
-            yt_players[refElement].pauseVideo();
+          refElement.removeClass("active");
+          yt_players[playerId].pauseVideo();
         }
-    });
+      });
+
+    } else {
+      $('.index-video-section').each(function(){
+        var playerId = 'player' + $(this).attr('id').split('-')[1];
+        yt_players[playerId].pauseVideo();
+      })
+    }
   }
 
-  // $(document).on('scroll',onScrollFunction);
-  //
-  // function onScrollFunction(event) {
-  //   // console.log($(document).scrollTop());
-  //   console.log($('#index-rd').position());
-  //   // console.log(event);
-  // }
 })
