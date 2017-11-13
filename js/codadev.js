@@ -2,7 +2,7 @@ jQuery(document).ready(function($) {
   // $('.top-nav').click(function(){
   //   console.log('CLICKED HEHEHE');
   // })
-  console.log('Today is 11/7 (c)');
+  console.log('Today is 11/13 (a)');
 
   $('.header-navicon').click(function(){
     var x = $('#header-rnav').attr('class').split(' ');
@@ -139,8 +139,18 @@ source: https://stackoverflow.com/questions/12522291/pausing-youtube-iframe-api-
 
   function onScroll(event){
     var scrollPos = $(document).scrollTop();
+    var indexNaviSection = Math.round($('.index-videonav-container').position().top);
     var scriptTriggerPos = Math.round($('.index-allvideo-container').position().top);
     // - - - trigger only when scrollPosition is at certain point.
+    if(((indexNaviSection - scrollPos) < 0) && ((indexNaviSection + $('.index-videonav-container').height()) - scrollPos) > 0) {
+      $('.index-videonav-box').each(function(){
+        $(this).fadeIn('500');
+      })
+    } else {
+      $('.index-videonav-box').each(function() {
+        $(this).fadeOut('500');
+      })
+    }
     if((scriptTriggerPos - scrollPos) < 0) {
 
       $('.index-video-section').each(function () {

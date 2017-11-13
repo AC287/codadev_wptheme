@@ -542,6 +542,7 @@ input:focus::-ms-input-placeholder {
   margin: 0;
 }
 .index-videonav-box {
+  display: none;
   /*position: relative;*/
   width: 150px;
   text-align: center;
