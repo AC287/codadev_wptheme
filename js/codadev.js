@@ -110,22 +110,22 @@ source: https://stackoverflow.com/questions/12522291/pausing-youtube-iframe-api-
   // );
 
   /* - - - SCROLL TO - - - */
-  $('.index-videonav-box').click(function(){
+  $('.index-secnav-box').click(function(){
     var curCategory = $(this).attr('class').split(' ')[1].split('-')[1];
     var scrollToSection = '#index-' + curCategory;
-    var playThis = 'player'+curCategory;
+    // var playThis = 'player'+curCategory;
     // var volControl = 'vol'+curCategory;
     $('html, body').animate ({
       scrollTop: $(scrollToSection).offset().top
     }, 2000);
-    $('.index-video-section').each(function(){
-      var curSection = 'player'+$(this).attr('id').split('-')[1];
-      // $(this).removeClass('active');
-      yt_players[curSection].pauseVideo();
-    });
-    // $(this).addClass('active');
-    yt_players[playThis].playVideo();
-    yt_players[playThis].mute();
+    // $('.index-video-section').each(function(){
+    //   var curSection = 'player'+$(this).attr('id').split('-')[1];
+    //   // $(this).removeClass('active');
+    //   yt_players[curSection].pauseVideo();
+    // });
+    // // $(this).addClass('active');
+    // yt_players[playThis].playVideo();
+    // yt_players[playThis].mute();
 
     /*
       source: https://stackoverflow.com/questions/6677035/jquery-scroll-to-element
@@ -133,24 +133,24 @@ source: https://stackoverflow.com/questions/12522291/pausing-youtube-iframe-api-
     */
   });
 
-  $(document).on("scroll",onScroll);
+  // $(document).on("scroll",onScroll);
   // console.log($('.index-video-title').height());
 
-
+/*
   function onScroll(event){
     var scrollPos = $(document).scrollTop();
     var indexNaviSection = Math.round($('.index-videonav-container').position().top);
     var scriptTriggerPos = Math.round($('.index-allvideo-container').position().top);
     // - - - trigger only when scrollPosition is at certain point.
-    if(((indexNaviSection - scrollPos) < 0) && ((indexNaviSection + $('.index-videonav-container').height()) - scrollPos) > 0) {
-      $('.index-videonav-box').each(function(){
-        $(this).fadeIn('500');
-      })
-    } else {
-      $('.index-videonav-box').each(function() {
-        $(this).fadeOut('500');
-      })
-    }
+    // if(((indexNaviSection - scrollPos) < 0) && ((indexNaviSection + $('.index-videonav-container').height()) - scrollPos) > 0) {
+    //   $('.index-videonav-box').each(function(){
+    //     $(this).fadeIn('500');
+    //   })
+    // } else {
+    //   $('.index-videonav-box').each(function() {
+    //     $(this).fadeOut('500');
+    //   })
+    // }
     if((scriptTriggerPos - scrollPos) < 0) {
 
       $('.index-video-section').each(function () {
@@ -193,8 +193,9 @@ source: https://stackoverflow.com/questions/12522291/pausing-youtube-iframe-api-
       })
     }
   }
-
+*/
   /* - - - volume control - - - */
+  /*
   $('.ivt2-vol span').click(function(){
     var spanVolElement = $(this);
     var videoId = 'player' + spanVolElement.attr('id').split('vol')[1];
@@ -210,5 +211,6 @@ source: https://stackoverflow.com/questions/12522291/pausing-youtube-iframe-api-
       yt_players[videoId].mute();
     }
   })
+  */
 
 })
