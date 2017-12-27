@@ -175,6 +175,8 @@
 					<p>With <span class="ivt2t-smb">2 R&amp;D teams,</span> one in the <span class="ivt2t-smb">US</span> and one in <span class="ivt2t-smb">China</span>, we work with our customers to come up with new products on the </p>
 					<p class="ivt2t-lg">cutting edge of their industries.</p>
 				</div>
+				<i class="fa fa-play-circle-o fa-lg"></i>
+				<span class="index-watch-button">Watch Video</span>
 			</div>
 			<!-- <div class="iist-underline"> -->
 			<!-- </div> -->

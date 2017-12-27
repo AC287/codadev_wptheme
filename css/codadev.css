@@ -727,6 +727,11 @@ section.index-is-container {
   display: block;
   /* overflow: auto; */
 }
+@media screen and (max-width: 450px) {
+  .ivt2-container {
+    padding: 25px;
+  }
+}
 
 .ivt2-title {
   /*display: block;*/
