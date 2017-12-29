@@ -2,7 +2,7 @@ jQuery(document).ready(function($) {
   // $('.top-nav').click(function(){
   //   console.log('CLICKED HEHEHE');
   // })
-  console.log('Today is 11/13 (a)');
+  console.log('Today is 12/29 (b)');
 
   $('.header-navicon').click(function(){
     var x = $('#header-rnav').attr('class').split(' ');
@@ -70,20 +70,21 @@ jQuery(document).ready(function($) {
     return;
   }
   /* - - - Pressing ESC will reset everything - - - */
-  $(document).keydown(function(e){
-    // console.log(e);
-    if(e.keyCode==27){  //this listen for "ESC" key.
-      $('.ip-modal').css('display','none');
-      $('.ip-slides').css('display','none');
-      $('.team-modal').css('display', 'none');
-      $('.team-modal-content').css('display','none');
-    }
-  })
+  // $(document).keydown(function(e){
+  //   // console.log(e);
+  //   if(e.keyCode==27){  //this listen for "ESC" key.
+  //     $('.ip-modal').css('display','none');
+  //     $('.ip-slides').css('display','none');
+  //     $('.team-modal').css('display', 'none');
+  //     $('.team-modal-content').css('display','none');
+  //   }
+  // })
 
   /* - - - VIDEO PLAYER - - - */
 /*
 source: https://stackoverflow.com/questions/12522291/pausing-youtube-iframe-api-in-javascript
 */
+
   var yt_int, yt_players={}, initYT = function() {
     $(".ytplayer").each(function() {
       yt_players[this.id] = new YT.Player(this.id);
@@ -97,6 +98,7 @@ source: https://stackoverflow.com/questions/12522291/pausing-youtube-iframe-api-
           }
       },750);
   });
+
   // $('section').hover(
   //   function(){
   //     var curSection = 'player' + $(this).attr('id').split('-')[1];
@@ -212,5 +214,33 @@ source: https://stackoverflow.com/questions/12522291/pausing-youtube-iframe-api-
     }
   })
   */
+
+  $('.ivt2-videolink').click(function(){
+    var curId = $(this).attr('id').split('-')[1];
+    // console.log(videoId);
+    $('.video-modal').css('display','block');
+    $('#iv-'+curId).css('display','block');
+
+    $('.video-close').click(function(){
+      var iFrameId = 'player'+curId;
+      $('.video-modal').css('display','none');
+      yt_players[iFrameId].pauseVideo();
+      $('#iv-'+curId).css('display','none');
+    })
+
+    $(document).keydown(function(e){
+      console.log("esc key pressed");
+      var iFrameId = 'player'+curId;
+      // console.log(e);
+      if(e.keyCode==27){  //this listen for "ESC" key.
+        $('.video-modal').css('display','none');
+        yt_players[iFrameId].pauseVideo();
+        $('#iv-'+curId).css('display','none');
+
+      }
+    })
+
+  })
+
 
 })

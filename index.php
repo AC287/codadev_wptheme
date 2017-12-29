@@ -175,8 +175,10 @@
 					<p>With <span class="ivt2t-smb">2 R&amp;D teams,</span> one in the <span class="ivt2t-smb">US</span> and one in <span class="ivt2t-smb">China</span>, we work with our customers to come up with new products on the </p>
 					<p class="ivt2t-lg">cutting edge of their industries.</p>
 				</div>
-				<i class="fa fa-play-circle-o fa-lg"></i>
-				<span class="index-watch-button">Watch Video</span>
+				<div class="ivt2-videolink" id="watch-rd">
+					<i class="fa fa-play-circle-o fa-lg"></i>
+					<span class="index-watch-button">Watch Video</span>
+				</div>
 			</div>
 			<!-- <div class="iist-underline"> -->
 			<!-- </div> -->
@@ -202,6 +204,10 @@
 					<p class="ivt2t-lg">Injection molded plastics<br/>Small metal parts stamping</p>
 					<p><span class="ivt2t-md">Coda's wholly-owned, 20-acre manufacturing complex</span><br/>in Heze, China allows for the highest quality and most efficient manufacturing possible.</p>
 					<p>In addition to its own factories, Coda's offices have developed an <br/> <span class="ivt2t-md">Extensive network of partner factories</span><br/>Ensuring Coda's ability to manufacture high quality products outside of its core competencies while monitoring the process with their own QC team and guaranteeing quality assurance.</p>
+				</div>
+				<div class="ivt2-videolink" id="watch-manufacturing">
+					<i class="fa fa-play-circle-o fa-lg"></i>
+					<span class="index-watch-button">Watch Video</span>
 				</div>
 			</div>
 			<!-- <div class="iist-underline"> -->
@@ -230,6 +236,10 @@
 					<p class="ivt2t-md">QA personnel conduct intensive audits to make sure all products, process &amp; equipment are of the highest quality.</p>
 					<p>Coda ensures that all product leaving their wholly-owned factories, or any of their partner factories are met with the same tests, audits, and standards.</p>
 				</div>
+				<div class="ivt2-videolink" id="watch-qa">
+					<i class="fa fa-play-circle-o fa-lg"></i>
+					<span class="index-watch-button">Watch Video</span>
+				</div>
 			</div>
 			<!-- <div class="iist-underline"> -->
 			<!-- </div> -->
@@ -254,6 +264,10 @@
 					<p>Coda's China offices and U.S. offices work together to transform a typical sourcing operation into an efficient powerhouse.</p>
 					<p class="ivt2t-lg">Exact product reproduction <br/>Through vetting for potential vendors <br/>Boots on the ground</p>
 					<p>Coda's employees can visit vendors on a moment's notice, inspect product before it ships out and solve any problems right at the source.</p>
+				</div>
+				<div class="ivt2-videolink" id="watch-sourcing">
+					<i class="fa fa-play-circle-o fa-lg"></i>
+					<span class="index-watch-button">Watch Video</span>
 				</div>
 			</div>
 			<!-- <div class="iist-underline"> -->
@@ -280,6 +294,10 @@
 					<p>Coda Resources owns or controls a network of factories in China, 2 sourcing offices in China, and 3 distribution centers in the U.S.</p>
 					<p>All of these networks are in constant contact with its New York headquarters, ensuring smooth operations from beginning to end.</p>
 					<p class="ivt2t-lg">Coda oversees production, quality control, shipping &amp; logistics, warehousing, distribution, and delivery</p>
+				</div>
+				<div class="ivt2-videolink" id="watch-scm">
+					<i class="fa fa-play-circle-o fa-lg"></i>
+					<span class="index-watch-button">Watch Video</span>
 				</div>
 			</div>
 			<!-- <div class="iist-underline"> -->
@@ -308,11 +326,39 @@
 					<p>Whether you are looking to become a vendor or a customer, Coda Resources invites you to </p>
 					<p class="ivt2t-lg">Partner with us.</p>
 				</div>
+				<div class="ivt2-videolink" id="watch-partnership">
+					<i class="fa fa-play-circle-o fa-lg"></i>
+					<span class="index-watch-button">Watch Video</span>
+				</div>
 			</div>
 			<!-- <div class="iist-underline"> -->
 			<!-- </div> -->
 		</div>
 	</section>
+
+	<div class="video-modal">
+		<span class='video-close glyphicon glyphicon-remove'></span>
+		<div class="vm-container">
+			<div class="vm-content" id="iv-rd">
+				<iframe width="640" height="360" src="https://www.youtube.com/embed/dnOKgwbU7lg?controls=1&amp;rel=0&amp;enablejsapi=1&amp;showinfo=0&amp;loop=1&amp;playlist=dnOKgwbU7lg" frameborder="0" allowfullscreen id="playerrd" class="ytplayer"></iframe>
+			</div>
+			<div class="vm-content" id="iv-manufacturing">
+				<iframe width="640" height="360" src="https://www.youtube.com/embed/9qc296X7778?controls=1&amp;rel=0&amp;enablejsapi=1&amp;showinfo=0&amp;loop=1&amp;playlist=9qc296X7778" frameborder="0" allowfullscreen id="playermanufacturing" class="ytplayer"></iframe>
+			</div>
+			<div class="vm-content" id="iv-qa">
+				<iframe width="640" height="360" src="https://www.youtube.com/embed/H5Iw617dwZc?controls=1&amp;rel=0&amp;enablejsapi=1&amp;showinfo=0&amp;loop=1&amp;playlist=H5Iw617dwZc" frameborder="0" allowfullscreen id="playerqa" class="ytplayer"></iframe>
+			</div>
+			<div class="vm-content" id="iv-sourcing">
+				<iframe width="640" height="360" src="https://www.youtube.com/embed/94HO1ByRswM?controls=1&amp;rel=0&amp;enablejsapi=1&amp;showinfo=0&amp;loop=1&amp;playlist=94HO1ByRswM" frameborder="0" allowfullscreen id="playersourcing" class="ytplayer"></iframe>
+			</div>
+			<div class="vm-content" id="iv-scm">
+				<iframe width="640" height="360" src="https://www.youtube.com/embed/N3tmypB2YlY?controls=1&amp;rel=0&amp;enablejsapi=1&amp;showinfo=0&amp;loop=1&amp;playlist=N3tmypB2YlY" frameborder="0" allowfullscreen id="playerscm" class="ytplayer"></iframe>
+			</div>
+			<div class="vm-content" id="iv-partnership">
+				<iframe width="640" height="360" src="https://www.youtube.com/embed/cO048hRcbC4?controls=1&amp;rel=0&amp;enablejsapi=1&amp;showinfo=0&amp;loop=1&amp;playlist=cO048hRcbC4" frameborder="0" allowfullscreen id="playerpartnership" class="ytplayer"></iframe>
+			</div>
+		</div>
+	</div>
 
 
 </div>	<!-- end index-allis-container  -->
