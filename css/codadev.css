@@ -427,6 +427,7 @@ input:focus::-ms-input-placeholder {
   display: -ms-flexbox;
   display: flex;
   background-color: #031625;
+  margin-bottom: 20px;
 }
 #index-timeline:hover .index-tl-item {
   /*width: 23.3333%;*/
