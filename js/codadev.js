@@ -236,11 +236,78 @@ source: https://stackoverflow.com/questions/12522291/pausing-youtube-iframe-api-
         $('.video-modal').css('display','none');
         yt_players[iFrameId].pauseVideo();
         $('#iv-'+curId).css('display','none');
-
       }
     })
-
   })
+
+
+  /*
+  - - - TEAM PAGE - - -
+  */
+  $('.team-crop').click(function(){
+    var displayingPerson = '.team-'+$(this).attr('id');
+    // console.log($(this).attr('id'));
+    $('.team-modal').css('display','block');
+    $(displayingPerson).css('display', 'block');
+
+    $('.team-close').click(function(){
+      $('.team-modal').css('display','none');
+      $(displayingPerson).css('display','none');
+    })
+  })
+
+  // $('.team-salesmanager-each').hover(function(){
+  //   // console.log($(this).attr('class'));
+  //   var currState = '#'+$(this).attr('class').split(' ')[1].split('-')[2]+' .cls-1';
+  //   // console.log(currState);
+  //   $(currState).css({
+  //     'fill': '#fff',
+  //   })
+  // })
+
+  $('.team-salesmanager-each img').bind({
+    mouseenter: function(){
+      var currState = '#'+$(this).attr('class').split('-')[2]+' .cls-1';
+      $(currState).css({
+        // 'transform':'scale(1.5)',
+        'fill':'rgb(112, 189, 255)',
+      })
+    },
+    mouseleave: function(){
+      // var currState = '#'+$(this).attr('class').split(' ')[1].split('-')[2]+' .cls-1';
+      $('.cls-1').css({
+        'fill':'#036',
+      })
+    }
+  });
+  // console.log($('.career-open-each').height());
+  /* - - - CAREER EXPAND SECTION - - - */
+  $('.career-open-expand a').click(function(){
+    // console.log($(this).attr('id'));
+    var clickedclass = '.'+$(this).attr('id');
+    // var clickedID = '#'+$(this).attr('id');
+    // var clickedclassHeight = $(clickedclass).height();
+    // var clickedHeightInner = $( clickedclass + ' .career-open-each').height();
+    // // console.log(typeof(clickedHeight));
+    // if (clickedclassHeight > 150){
+    //   $(clickedclass).css({
+    //     'height': '150px',
+    //   })
+    //   $(clickedID).text('Click to expand');
+    // } else {
+    //   $(clickedclass).css({
+    //     'height': clickedHeightInner+'px',
+    //   })
+    //   $(clickedID).text('Hide');
+    // }
+    $(clickedclass).css('display','block');
+
+    $('.career-close').click(function(){
+      $('.career-modal').css('display','none');
+      $(displayingPerson).css('display','none');
+    })
+  })
+
 
 
 })
