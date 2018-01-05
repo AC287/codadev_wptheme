@@ -84,6 +84,7 @@ input:focus::-ms-input-placeholder {
   width: 100%;
   /*background-color: #003DA5;*/
   color: #fff;
+  min-height: 72px;
 }
 .tn-overall-table {
   /*margin-top: 15px;*/
@@ -169,7 +170,7 @@ input:focus::-ms-input-placeholder {
 .navi1-btn a {
   position: relative;
   text-decoration: none;
-  margin-left: 20px;
+  margin-left: 40px;
   color: inherit;
   font-size: 13px;
   display: inline-block;
@@ -207,10 +208,12 @@ input:focus::-ms-input-placeholder {
 .nav2 {
   font-family: 'bignoodletitlingregular';
   color: #003DA5;
-  font-size: 20px;
+  font-size: 10pt;
   letter-spacing: 2px;
   display: block;
   float: left;
+  padding-top: 14px;
+  padding-bottom: 5px;
 }
 .nav2-logo {
   display: block;
@@ -220,11 +223,16 @@ input:focus::-ms-input-placeholder {
   text-decoration: none;
   padding-left: 20px;
 }
-.nav2,
+/* .nav2,
 .nav2-logo:not(.nav2-coda) {
   padding-top: 8px;
   padding-bottom: 5px;
+} */
+
+.nav2-cambridge, .nav2-amram, .nav2-ldr, .nav2-pipedecor {
+  padding-top: 10px;
 }
+
 .nav2-search {
   display: block;
   float: right;
@@ -596,7 +604,7 @@ input:focus::-ms-input-placeholder {
 .index-secnav-text {
   /*margin-top: 15px;*/
   color: #0d1778;
-  font-family: 'Questrial' sans-serif;
+  font-family: 'Questrial', sans-serif;
   font-size: 14pt;
 }
 .index-secnav-box:hover .index-secnav-defaultimg {
@@ -755,7 +763,10 @@ section.index-is-container {
 .ivt2-text {
   text-align: center;
   /* padding-top: 10px; */
-  font-family: 'Questrial' sans-serif;
+  font-family: 'Questrial', sans-serif;
+}
+.ivt2t-sm {
+  font-size: 11pt;
 }
 .ivt2t-smb {
   color: #003DA5;
@@ -765,14 +776,32 @@ section.index-is-container {
   color: #003DA5;
 }
 .ivt2t-lg {
-  font-size: 16pt;
+  font-size: 18pt;
+  font-weight: bold;
   color: #003DA5;
 }
+@media screen and (min-width: 1400px) {
+  .ivt2t-sm {
+    font-size: 12pt;
+  }
+  .ivt2t-md {
+    font-size: 16pt;
+  }
+  .ivt2t-lg {
+    font-size: 20pt;
+    font-weight: bold;
+  }
+
+}
+
 .ivt2-videolink {
   color: #003DA5;
   margin-top: 35px;
-  text-align: right;
+  text-align: center;
   cursor: pointer;
+}
+.index-watch-button {
+  font-size: 13pt;
 }
 
 .video-modal {
@@ -793,8 +822,8 @@ section.index-is-container {
   position: fixed;
   z-index: 4;
   color: #fff;
-  top: 20px;
-  right: 20px;
+  top: 40px;
+  right: 30px;
   font-size: 16pt;
 }
 .video-close:hover, .video-close:focus {
@@ -816,4 +845,5 @@ section.index-is-container {
 }
 .vm-content {
   display: none;
+  padding-top: 50px;
 }

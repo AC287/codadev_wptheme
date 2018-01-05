@@ -23,8 +23,8 @@
               <div class="tn-inner-table">
                 <div class="row">
                   <div class="col-sm-12">
-                    <span class="glyphicon glyphicon-earphone ph-icon" aria-hidden="true"></span>
-                    <span class="navi-ph">718.649.1666</span>
+                    <!-- <span class="glyphicon glyphicon-earphone ph-icon" aria-hidden="true"></span>
+                    <span class="navi-ph">718.649.1666</span> -->
                     <a class="s-icon" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/cambridgeresources/">
                       <span class="fa fa-facebook-official"></span>
                     </a>
@@ -75,24 +75,24 @@
             <div class="nav2">
               <span>OUR BRANDS</span>
             </div>
-            <div class="nav2-logo nav2-coda">
+            <div class="nav2-logo nav2-cambridge">
               <a href="http://www.cambridgeresources.com/" target="_blank" rel="noopener noreferrer">
-                <img src="<?php bloginfo('template_directory')?>/images/cambridgelogo_blue.png" height="35px" >
+                <img src="<?php bloginfo('template_directory')?>/images/cambridgelogo_blue.png" height="25px" >
               </a>
             </div>
             <div class="nav2-logo nav2-amram">
               <a href="" target="_blank" rel="noopener noreferrer">
-                <img src="<?php bloginfo('template_directory')?>/images/AMRAM_Logo_001.png" height="20px">
+                <img src="<?php bloginfo('template_directory')?>/images/AMRAM_Logo_001.png" height="15px">
               </a>
             </div>
             <div class="nav2-logo nav2-ldr">
               <a href="http://www.ldrind.com/" target="_blank" rel="noopener noreferrer">
-                <img src="<?php bloginfo('template_directory')?>/images/LDR_LOGO.png" height="25px">
+                <img src="<?php bloginfo('template_directory')?>/images/LDR_LOGO.png" height="20px">
               </a>
             </div>
             <div class="nav2-logo nav2-pipedecor">
               <a href="" target="_blank" rel="noopener noreferrer">
-                <img src="<?php bloginfo('template_directory')?>/images/pipedecor_logo.png" height="12px">
+                <img src="<?php bloginfo('template_directory')?>/images/pipedecor_logo.png" height="9px">
               </a>
             </div>
             <!-- <div class="nav2-search">
