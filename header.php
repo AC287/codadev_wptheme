@@ -44,6 +44,10 @@
                         <div class="header-navi-title">HOME</div>
                         <div class="header-navi-selector"></div>
                       </a>
+                      <a class="about" href="<?php echo home_url();?>/about/">
+                        <div class="header-navi-title">ABOUT</div>
+                        <div class="header-navi-selector"></div>
+                      </a>
                       <a class="team" href="<?php echo home_url();?>/team/">
                         <div class="header-navi-title">OUR TEAM</div>
                         <div class="header-navi-selector"></div>
