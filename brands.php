@@ -12,7 +12,7 @@
             <img class="brands-img" src="<?php bloginfo('template_directory')?>/images/brands/cambridge_pms293.png" style="height:70px; width:auto">
           </div>
           <div class="brandsoverlay-text">
-            <p>Cambridge call out text here . . .  </p>
+            <p>Cambridge manufactures premium quality HVAC, plumbing, electrical and automotive products and sells to distributors, retailers, and O.E.M.'s. Cambridge has a dedicated team of sales professionals who are extremely knowledgeable in their respective industries.</p>
             <a href="http://www.cambridgeresources.com" target="_blank" rel="noopener noreferrer">Visit Site >></a>
           </div>
         </div>
