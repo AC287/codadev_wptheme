@@ -3,6 +3,88 @@
 
 
 <div class="index-secnav-container">
+	<div class="index-banner">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<!-- <ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+				<li data-target="#myCarousel" data-slide-to="3"></li>
+				<li data-target="#myCarousel" data-slide-to="4"></li>
+				<li data-target="#myCarousel" data-slide-to="5"></li>
+			</ol> -->
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<div class="ib-img">
+						<img src="<?php bloginfo('template_directory')?>/images/banners/coda-rd.jpg">
+					</div>
+					<div class="ib-wrapper">
+						<div class="ib-txt">
+							<span>Research &amp; Development</span>
+						</div>
+					</div>
+				</div> <!--  end RD  -->
+				<div class="item">
+					<div class="ib-img">
+						<img src="<?php bloginfo('template_directory')?>/images/banners/coda-manufacturing.jpg">
+					</div>
+					<div class="ib-wrapper">
+						<div class="ib-txt">
+							<span>Manufacturing</span>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="ib-img">
+						<img src="<?php bloginfo('template_directory')?>/images/banners/coda-qa.jpg">
+					</div>
+					<div class="ib-wrapper">
+						<div class="ib-txt">
+							<span>Quality Assurance</span>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="ib-img">
+						<img src="<?php bloginfo('template_directory')?>/images/banners/coda-sourcing.jpg">
+					</div>
+					<div class="ib-wrapper">
+						<div class="ib-txt">
+							<span>Sourcing</span>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="ib-img">
+						<img src="<?php bloginfo('template_directory')?>/images/banners/coda-scm.jpg">
+					</div>
+					<div class="ib-wrapper">
+						<div class="ib-txt">
+							<span>Supply Chain Management</span>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="ib-img">
+						<img src="<?php bloginfo('template_directory')?>/images/banners/coda-partnership.jpg">
+					</div>
+					<div class="ib-wrapper">
+						<div class="ib-txt">
+							<span>Partnership</span>
+						</div>
+					</div>
+				</div>
+			</div> <!-- end carousel-inner -->
+			<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div> <!-- end myCarousel -->
+	</div> <!--  end index-banner  -->
 	<div class="index-secnav-overallcontainer">
 		<div class="index-secnav-box coda-rd">
 			<!-- <?php //include("images/codanavi/rd.svg"); ?> -->
