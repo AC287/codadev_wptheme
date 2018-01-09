@@ -120,7 +120,7 @@
 		</div>
 		<div class="index-secnav-box coda-scm">
 			<img class="index-secnav-defaultimg" src="<?php bloginfo('template_directory')?>/images/codanavi/scm_0.png">
-			<img class="index-secnav-hoverimg" src="<?php bloginfo('template_directory')?>/images/codanavi/h_supplychainmanagement4x.png">
+			<img class="index-secnav-hoverimg" src="<?php bloginfo('template_directory')?>/images/codanavi/h_scm4x.png">
 			<!-- <?php //include("images/codanavi/scm.svg"); ?> -->
 			<div class="index-secnav-text">
 				<p>Supply Chain Management</p>

@@ -763,8 +763,8 @@ input:focus::-ms-input-placeholder {
 
 section.index-is-container {
   background-color: #fff;
-  min-height: 100vh;
-  width: 45%;
+  min-height: 70vh;
+  width: 43%;
   padding: 25px 10px 20px 10px;
   margin: 30px;
 }
