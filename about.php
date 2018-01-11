@@ -97,7 +97,7 @@
 			<p>2015</p>
 		</div>
 		<div class="index-tl-content">
-			<p>Cambridge acquires LDR Global industries.</p>
+			<p>Coda Resources acquires LDR Global industries.</p>
 		</div>
 	</div>
 </div>	<!--	This end timeline section. -->
