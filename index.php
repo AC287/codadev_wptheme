@@ -143,7 +143,7 @@
 	<section class="index-is-container" id="index-rd">
 		<div class="index-is-title">
 			<div class="iist-imgcontainer">
-				<img src="<?php bloginfo('template_directory')?>/images/codanavi/rd_0.png">
+				<img src="<?php bloginfo('template_directory')?>/images/banners/coda-rd.jpg" width="100%">
 			</div>
 			<!-- <div class="iist-text">
 				<span>RESEARCH &amp; DEVELOPMENT</span>
@@ -172,7 +172,7 @@
 	<section class="index-is-container" id="index-manufacturing">
 		<div class="index-is-title">
 			<div class="iist-imgcontainer">
-				<img src="<?php bloginfo('template_directory')?>/images/codanavi/manufacturing_0.png">
+				<img src="<?php bloginfo('template_directory')?>/images/banners/coda-manufacturing.jpg" height="100%">
 			</div>
 			<!-- <div class="iist-text">
 				<span>MANUFACTURING</span>
@@ -202,7 +202,7 @@
 	<section class="index-is-container" id="index-qa">
 		<div class="index-is-title">
 			<div class="iist-imgcontainer">
-				<img src="<?php bloginfo('template_directory')?>/images/codanavi/qa_0.png">
+				<img src="<?php bloginfo('template_directory')?>/images/banners/coda-qa.jpg" width="100%">
 			</div>
 			<!-- <div class="iist-text">
 				<span>QUALITY ASSURANCE</span>
@@ -233,7 +233,7 @@
 	<section class="index-is-container" id="index-sourcing">
 		<div class="index-is-title">
 			<div class="iist-imgcontainer">
-				<img src="<?php bloginfo('template_directory')?>/images/codanavi/sourcing_0.png">
+				<img src="<?php bloginfo('template_directory')?>/images/banners/coda-sourcing.jpg" height="100%">
 			</div>
 			<!-- <div class="iist-text">
 				<span>SOURCING</span>
@@ -262,7 +262,7 @@
 	<section class="index-is-container" id="index-scm">
 		<div class="index-is-title">
 			<div class="iist-imgcontainer">
-				<img src="<?php bloginfo('template_directory')?>/images/codanavi/scm_0.png">
+				<img src="<?php bloginfo('template_directory')?>/images/banners/coda-scm.jpg" height="100%">
 			</div>
 			<!-- <div class="iist-text">
 				<span>SUPPLY CHAIN MANAGEMENT</span>
@@ -292,7 +292,7 @@
 	<section class="index-is-container" id="index-partnership">
 		<div class="index-is-title">
 			<div class="iist-imgcontainer">
-				<img src="<?php bloginfo('template_directory')?>/images/codanavi/partnership_0.png">
+				<img src="<?php bloginfo('template_directory')?>/images/banners/coda-partnership.jpg" height="100%">
 			</div>
 			<!-- <div class="iist-text">
 				<span>PARTNERSHIP</span>
