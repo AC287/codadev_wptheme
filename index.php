@@ -46,7 +46,7 @@
 				</div>
 				<div class="item">
 					<div class="ib-img">
-						<img src="<?php bloginfo('template_directory')?>/images/banners/coda-sourcing.jpg">
+						<img src="<?php bloginfo('template_directory')?>/images/banners/coda-sourcing.jpg" height="100%" width="100%">
 					</div>
 					<div class="ib-wrapper">
 						<div class="ib-txt">
