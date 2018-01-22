@@ -2,9 +2,9 @@
 
 <?php get_header();?>
 <div class="about-overall-cover">
-	<!-- <div class="about-imgcover-container">
-		<img src="<?php //bloginfo('template_directory')?>/images/nyc_beginning00.jpg" align="middle">
-	</div> -->
+	<div class="about-imgcover-container">
+		<img src="<?php bloginfo('template_directory')?>/images/banners/about-banner-nyc.jpg">
+	</div>
 	<div class="about-beginning-title">
 		<div class="index-title1">
 			<span>IN THE BEGINNING</span>

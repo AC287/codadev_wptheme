@@ -345,27 +345,19 @@ input:focus::-ms-input-placeholder {
 
 /* - - - ABOUT US PAGE - - - */
 .about-overall-cover {
+  position: relative;
   width: 100%;
-  height: 450px;
-  background-image: url('../images/nyc_beginning00.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  align-content: center;
-  align-items: center;
-  justify-content: center;
-  /* position: relative; */
-  /* overflow: hidden; */
 }
 .about-imgcover-container img {
+  width: 100%;
   /* align: middle; */
 }
 .about-beginning-title {
-  /* text-align: center; */
+  position: absolute;
+  z-index: 3;
+  top: 65%;
+  text-align: center;
+  width: 100%;
 }
 .index-title1 {
   text-align: center;
@@ -373,13 +365,14 @@ input:focus::-ms-input-placeholder {
 }
 .index-title1 span {
   /* margin-top: 200px; */
-  display: inline-block;
+  /* display: inline-block; */
   line-height: 100px;
   /*margin: 0 auto;*/
   font-family: 'bignoodletitlingregular',cursive;
   font-size: 75pt;
   letter-spacing: 2px;
   color: #fff;
+  text-shadow: 2px 2px 8px #000;
   /*border-bottom: 4px solid #003DA5;*/
 }
 .index-title1-underline {
@@ -387,14 +380,8 @@ input:focus::-ms-input-placeholder {
   width: 200px;
   border-bottom: 4px solid #fff;
 }
-/* .index-inthebeginning-container {
-  padding-left: 150px;
-  padding-right: 150px;
-} */
+
 .index-inthebeginning {
-  /*padding-top: 50px;
-  padding-bottom: 50px;*/
-  /*padding: 50px 50px 20px 50px;*/
   text-align: center;
   display: flex;
   display: -webkit-box;
@@ -411,16 +398,16 @@ input:focus::-ms-input-placeholder {
   .index-inthebeginning {
     flex-wrap: wrap;
   }
-  .index-inthebeginning-img {
-    /*width: 250px;*/
-    /*height: 250px;*/
-  }
-  /* .index-inthebeginning-img img {
-    max-width: 250px;
-    max-height: 250px;
-  } */
   .index-inthebeginning-contents{
     padding-top: 25px;
+  }
+  .about-beginning-title {
+    top: 50%;
+  }
+  .index-title1 span {
+    font-size: 45pt;
+    line-height: 50px;
+    text-shadow: 2px 2px 8px #000;
   }
 }
 .index-inthebeginning-img {
@@ -650,23 +637,8 @@ input:focus::-ms-input-placeholder {
 .ib-img {
   /* position: relative; */
   width: 100%;
-  height: 450px;
-  overflow: hidden;
-}
-@media screen and (max-width: 1320px) and (min-width: 950px){
-  .ib-img {
-    height:390px;
-  }
-}
-@media screen and (max-width: 949px) and (min-width: 650px){
-  .ib-img {
-    height: 250px;
-  }
-}
-@media screen and (max-width: 649px){
-  .ib-img {
-    height: 150px;
-  }
+  /* height: 450px; */
+  /* overflow: hidden; */
 }
 .ib-img img {
   width: 100%;
@@ -740,7 +712,27 @@ input:focus::-ms-input-placeholder {
   /* margin-left: 0 auto; */
   /* margin-right: 0 auto; */
 }
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1701px) {
+  .index-secnav-overallcontainer {
+    position: absolute;
+    z-index: 1;
+    top: 60%;
+    left: 50%;
+    margin-top: 175px;
+    margin-left: -450px;
+  }
+}
+@media screen and (min-width: 1501px) and (max-width: 1700px){
+  .index-secnav-overallcontainer {
+    position: absolute;
+    z-index: 1;
+    top: 55%;
+    left: 50%;
+    margin-top: 175px;
+    margin-left: -450px;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width:1500px){
   .index-secnav-overallcontainer {
     position: absolute;
     z-index: 1;
@@ -798,8 +790,8 @@ input:focus::-ms-input-placeholder {
   /* padding: 10px 0px 10px 0px; */
   /* text-align: center; */
   width: 100%;
-  height: 250px;
-  overflow: hidden;
+  /* height: 250px; */
+  /* overflow: hidden; */
 }
 @media screen and (min-width: 1350px) {
   .iist-imgcontainer img {
@@ -830,13 +822,22 @@ input:focus::-ms-input-placeholder {
 /*.index-allvideo-container {
   outline-style: none;
 }*/
+.iac-outer {
+  background-color: #f1f2f2;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+}
 @media screen and (min-width: 1200px) {
   .index-allsection-container {
     padding-top: 390px;
   }
 }
 .index-allsection-container {
-  background-color: #f1f2f2;
+  max-width: 1500px;
   /* padding: 10px; */
   /* padding: 30px; */
   display: -webkit-box;
@@ -856,11 +857,11 @@ section.index-is-container {
   min-height: 70vh;
   width: 400px;
   /* padding: 0px 10px 20px 10px; */
-  margin-top: 35px;
+  margin: 35px 20px 20px 20px;
 }
 @media screen and (min-width: 1350px) {
   section.index-is-container {
-    width: 30%;
+    /* width: 30%; */
   }
 }
 
