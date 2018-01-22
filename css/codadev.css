@@ -862,7 +862,7 @@ section.index-is-container {
   color: #073DA5;
 }
 .ivt2-container {
-  padding: 25px 10px 10px 10px;
+  padding: 25px 15px 15px 15px;
   /* padding: 25px 80px 25px 80px; */
   display: block;
   /* overflow: auto; */
@@ -915,7 +915,7 @@ section.index-is-container {
   /* font-weight: bold; */
   color: #003DA5;
 }
-@media screen and (min-width: 1400px) {
+/* @media screen and (min-width: 1400px) {
   .ivt2t-sm {
     font-size: 12pt;
   }
@@ -923,11 +923,11 @@ section.index-is-container {
     font-size: 16pt;
   }
   .ivt2t-lg {
-    font-size: 20pt;
+    font-size: 16pt;
     font-weight: bold;
   }
 
-}
+} */
 
 .ivt2-videolink {
   display: -webkit-box;
