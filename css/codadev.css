@@ -343,8 +343,54 @@ input:focus::-ms-input-placeholder {
   }
 }
 
-/*  INDEX PAGE  */
-
+/* - - - ABOUT US PAGE - - - */
+.about-overall-cover {
+  width: 100%;
+  height: 450px;
+  background-image: url('../images/nyc_beginning00.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  /* position: relative; */
+  /* overflow: hidden; */
+}
+.about-imgcover-container img {
+  /* align: middle; */
+}
+.about-beginning-title {
+  /* text-align: center; */
+}
+.index-title1 {
+  text-align: center;
+  /*height: 50px;*/
+}
+.index-title1 span {
+  /* margin-top: 200px; */
+  display: inline-block;
+  line-height: 100px;
+  /*margin: 0 auto;*/
+  font-family: 'bignoodletitlingregular',cursive;
+  font-size: 75pt;
+  letter-spacing: 2px;
+  color: #fff;
+  /*border-bottom: 4px solid #003DA5;*/
+}
+.index-title1-underline {
+  margin: 0 auto;
+  width: 200px;
+  border-bottom: 4px solid #fff;
+}
+/* .index-inthebeginning-container {
+  padding-left: 150px;
+  padding-right: 150px;
+} */
 .index-inthebeginning {
   /*padding-top: 50px;
   padding-bottom: 50px;*/
@@ -359,7 +405,7 @@ input:focus::-ms-input-placeholder {
   padding-bottom: 50px;
   width: 100%;
   /*flex-wrap: wrap;*/
-  justify-content: space-around;
+  justify-content: center;
 }
 @media screen and (max-width: 995px) {
   .index-inthebeginning {
@@ -369,9 +415,12 @@ input:focus::-ms-input-placeholder {
     /*width: 250px;*/
     /*height: 250px;*/
   }
-  .index-inthebeginning-img img {
+  /* .index-inthebeginning-img img {
     max-width: 250px;
     max-height: 250px;
+  } */
+  .index-inthebeginning-contents{
+    padding-top: 25px;
   }
 }
 .index-inthebeginning-img {
@@ -383,49 +432,34 @@ input:focus::-ms-input-placeholder {
 }
 .index-inthebeginning-img img {
   /*width: inherit;*/
-  width: 400px;
-  height: 400px;
+  width: 200px;
+  height: 200px;
+  margin: 0;
 }
 .index-inthebeginning-contents {
   padding-left: 50px;
   padding-right: 50px;
-  text-align: center;
+  /* text-align: center; */
 }
-.index-title1 {
-  /*height: 50px;*/
-}
-.index-title1 span {
-  margin-top: 25px;
-  display: inline-block;
-  line-height: 50px;
-  /*margin: 0 auto;*/
-  font-family: 'bignoodletitlingregular',cursive;
-  font-size: 50px;
-  letter-spacing: 2px;
-  /*border-bottom: 4px solid #003DA5;*/
-}
-.index-title1-underline {
-  margin: 0 auto;
-  width: 200px;
-  border-bottom: 4px solid #003DA5;
-}
+
 .index-content1 {
-  margin-top: 20px;
+  /* margin-top: 20px; */
   text-align: left;
   font-family: 'Questrial', sans-serif;
   font-size: 18px;
 }
 
-.index-timelineimg img {
+/* .index-timelineimg img {
   max-width: 100%;
-  /*padding-top: 50px;*/
+  padding-top: 50px;
   padding-bottom: 50px;
-}
+} */
 
 #index-timeline {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  /* flex-wrap: wrap; */
   background-color: #031625;
   margin-bottom: 20px;
 }
@@ -517,10 +551,10 @@ input:focus::-ms-input-placeholder {
   position: relative;
   z-index: 1;
   text-align: center;
-  margin: 0 1.618em;
+  /* margin: 0 1.618em; */
   top: 50%;
   opacity: 0;
-  font-size: 14pt;
+  /* font-size: 14pt; */
 }
 .index-tl-year {
   position: absolute;
@@ -558,6 +592,30 @@ input:focus::-ms-input-placeholder {
           filter: grayscale(100%);
 }
 
+@media screen and (min-width: 1200px) {
+  .index-tl-content {
+    top: 50%;
+    padding: 1.5em;
+    font-size: 12pt;
+  }
+}
+@media screen and (max-width: 1199px) and (min-width: 750px){
+  .index-tl-content {
+    top: 40%;
+    padding: 25px;
+    font-size: 10pt;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  .index-tl-content {
+    top: 38%;
+    padding: 10px;
+    font-size: 8pt;
+  }
+}
+
+/*  INDEX PAGE  */
 /* - - - INDEX video navigation section - - - */
 
 .index-secnav-container {
