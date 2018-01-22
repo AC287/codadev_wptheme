@@ -956,7 +956,7 @@ section.index-is-container {
   /* text-align: center; */
   /* padding-top: 10px; */
   font-family: 'Questrial', sans-serif;
-  padding-bottom: 50px;
+  padding-bottom: 75px;
 }
 /* .ivt2t-sm {
   font-size: 11pt;
@@ -989,18 +989,19 @@ section.index-is-container {
 } */
 
 .ivt2-videolink {
-  display: -webkit-box;
+  /* display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  justify-content: center;
+  justify-content: center; */
+  display: block;
   width: 100%;
   position: absolute;
   bottom: 5px;
   color: #003DA5;
   /* margin-top: 35px; */
-  /* text-align: center; */
+  text-align: center;
   /* cursor: pointer; */
 }
 
@@ -1009,7 +1010,7 @@ section.index-is-container {
   cursor: pointer;
 }
 .ivt2-playicon {
-  padding-left: 10px;
+  /* padding-left: 10px; */
   /* padding-bottom: 2px; */
   /* line-height: 2pt; */
   /* margin-bottom: 10px; */

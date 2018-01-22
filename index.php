@@ -85,6 +85,7 @@
 			</a>
 		</div> <!-- end myCarousel -->
 	</div> <!--  end index-banner  -->
+
 	<div class="index-secnav-overallcontainer">
 		<div class="index-secnav-box coda-rd">
 			<!-- <?php //include("images/codanavi/rd.svg"); ?> -->
@@ -140,7 +141,7 @@
 <!-- - - - Individual SECTION - - - -->
 <div class="iac-outer">
 	<div class="index-allsection-container">
-		
+
 		<section class="index-is-container" id="index-rd">
 			<div class="index-is-title">
 				<div class="iist-imgcontainer">
@@ -160,7 +161,8 @@
 					<p class="ivt2t-lg">With 2 R&amp;D teams, one in the US and one in China, we work with our customers to come up with new products on the cutting edge of their industries.</p>
 				</div>
 				<div class="ivt2-videolink" id="watch-rd">
-					<div class="index-watch-button-container"><span class="index-watch-button">Watch Video</span></div><div class="ivt2-playicon-container"><i class="ivt2-playicon fa fa-play-circle fa-2x"></i></div>
+					<div class="ivt2-playicon-container"><i class="ivt2-playicon fa fa-play-circle fa-2x"></i></div>
+					<div class="index-watch-button-container"><span class="index-watch-button">Watch Video</span></div>
 				</div>
 			</div>
 			<!-- <div class="iist-underline"> -->
@@ -188,7 +190,8 @@
 				<p class="ivt2t-lg">In addition to its own factories, Coda's offices have developed an extensive network of partner factories ensuring Coda's ability to manufacture high quality products outside of its core competencies while monitoring the process with their own QC team and guaranteeing quality assurance.</p>
 			</div>
 			<div class="ivt2-videolink" id="watch-manufacturing">
-				<div class="index-watch-button-container"><span class="index-watch-button">Watch Video</span></div><div class="ivt2-playicon-container"><i class="ivt2-playicon fa fa-play-circle fa-2x"></i></div>
+				<div class="ivt2-playicon-container"><i class="ivt2-playicon fa fa-play-circle fa-2x"></i></div>
+				<div class="index-watch-button-container"><span class="index-watch-button">Watch Video</span></div>
 			</div>
 		</div>
 		<!-- <div class="iist-underline"> -->
@@ -216,7 +219,8 @@
 			<p class="ivt2t-lg">Coda ensures that all product leaving their wholly-owned factories, or any of their partner factories are met with the same tests, audits, and standards.</p>
 		</div>
 		<div class="ivt2-videolink" id="watch-qa">
-			<div class="index-watch-button-container"><span class="index-watch-button">Watch Video</span></div><div class="ivt2-playicon-container"><i class="ivt2-playicon fa fa-play-circle fa-2x"></i></div>
+			<div class="ivt2-playicon-container"><i class="ivt2-playicon fa fa-play-circle fa-2x"></i></div>
+			<div class="index-watch-button-container"><span class="index-watch-button">Watch Video</span></div>
 		</div>
 	</div>
 	<!-- <div class="iist-underline"> -->
@@ -244,7 +248,8 @@
 			<p class="ivt2t-lg">Coda's employees can visit vendors on a moment's notice, inspect product before it ships out and solve any problems right at the source.</p>
 		</div>
 		<div class="ivt2-videolink" id="watch-sourcing">
-			<div class="index-watch-button-container"><span class="index-watch-button">Watch Video</span></div><div class="ivt2-playicon-container"><i class="ivt2-playicon fa fa-play-circle fa-2x"></i></div>
+			<div class="ivt2-playicon-container"><i class="ivt2-playicon fa fa-play-circle fa-2x"></i></div>
+			<div class="index-watch-button-container"><span class="index-watch-button">Watch Video</span></div>
 		</div>
 	</div>
 	<!-- <div class="iist-underline"> -->
@@ -272,7 +277,8 @@
 			<p class="ivt2t-lg">Coda oversees production, quality control, shipping &amp; logistics, warehousing, distribution, and delivery.</p>
 		</div>
 		<div class="ivt2-videolink" id="watch-scm">
-			<div class="index-watch-button-container"><span class="index-watch-button">Watch Video</span></div><div class="ivt2-playicon-container"><i class="ivt2-playicon fa fa-play-circle fa-2x"></i></div>
+			<div class="ivt2-playicon-container"><i class="ivt2-playicon fa fa-play-circle fa-2x"></i></div>
+			<div class="index-watch-button-container"><span class="index-watch-button">Watch Video</span></div>
 		</div>
 	</div>
 	<!-- <div class="iist-underline"> -->
@@ -302,7 +308,8 @@
 			<p class="ivt2t-lg">Whether you are looking to become a vendor or a customer, Coda Resources invites you to partner with us.</p>
 		</div>
 		<div class="ivt2-videolink" id="watch-partnership">
-			<div class="index-watch-button-container"><span class="index-watch-button">Watch Video</span></div><div class="ivt2-playicon-container"><i class="ivt2-playicon fa fa-play-circle fa-2x"></i></div>
+			<div class="ivt2-playicon-container"><i class="ivt2-playicon fa fa-play-circle fa-2x"></i></div>
+			<div class="index-watch-button-container"><span class="index-watch-button">Watch Video</span></div>
 		</div>
 	</div>
 	<!-- <div class="iist-underline"> -->
