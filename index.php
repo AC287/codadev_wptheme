@@ -156,12 +156,10 @@
 				</div>
 				<div class="ivt2-text">
 					<p class="ivt2t-lg">Coda Resources has a proud tradition of innovation.</p>
-					<p class="ivt2t-sm">With <span class="ivt2t-smb">2 R&amp;D teams,</span> one in the <span class="ivt2t-smb">US</span> and one in <span class="ivt2t-smb">China</span>, we work with our customers to come up with new products on the </p>
-					<p class="ivt2t-lg">cutting edge of their industries.</p>
+					<p class="ivt2t-lg">With 2 R&amp;D teams, one in the US and one in China, we work with our customers to come up with new products on the cutting edge of their industries.</p>
 				</div>
 				<div class="ivt2-videolink" id="watch-rd">
-					<div><i class="ivt2-playicon fa fa-play-circle-o fa-3x"></i></div>
-					<div><span class="index-watch-button">Watch Video</span></div>
+					<div class="index-watch-button-container"><span class="index-watch-button">Watch Video</span></div><div class="ivt2-playicon-container"><i class="ivt2-playicon fa fa-play-circle fa-2x"></i></div>
 				</div>
 			</div>
 			<!-- <div class="iist-underline"> -->
@@ -184,14 +182,12 @@
 				<div class="ivt2-underline">
 				</div>
 				<div class="ivt2-text">
-					<p class="ivt2t-sm">Coda Resources' <span class="ivt2t-smb">core manufacturing competencies</span> include </p>
-					<p class="ivt2t-lg">Injection molded plastics<br/>Small metal parts stamping</p>
-					<p class="ivt2t-sm"><span class="ivt2t-md">Coda's wholly-owned, 20-acre manufacturing complex</span><br/>in Heze, China allows for the highest quality and most efficient manufacturing possible.</p>
-					<p class="ivt2t-sm">In addition to its own factories, Coda's offices have developed an <br/> <span class="ivt2t-md">Extensive network of partner factories</span><br/>Ensuring Coda's ability to manufacture high quality products outside of its core competencies while monitoring the process with their own QC team and guaranteeing quality assurance.</p>
+					<p class="ivt2t-lg">Coda Resources' <span class="ivt2t-smb">core manufacturing competencies</span> include injection molded plastics small metal parts stamping.</p>
+					<p class="ivt2t-lg">Coda's wholly-owned, 20-acre manufacturing complex in Heze, China allows for the highest quality and most efficient manufacturing possible.</p>
+					<p class="ivt2t-lg">In addition to its own factories, Coda's offices have developed an extensive network of partner factories ensuring Coda's ability to manufacture high quality products outside of its core competencies while monitoring the process with their own QC team and guaranteeing quality assurance.</p>
 				</div>
 				<div class="ivt2-videolink" id="watch-manufacturing">
-					<div><i class="ivt2-playicon fa fa-play-circle-o fa-3x"></i></div>
-					<div><span class="index-watch-button">Watch Video</span></div>
+					<div class="index-watch-button-container"><span class="index-watch-button">Watch Video</span></div><div class="ivt2-playicon-container"><i class="ivt2-playicon fa fa-play-circle fa-2x"></i></div>
 				</div>
 			</div>
 			<!-- <div class="iist-underline"> -->
@@ -214,15 +210,12 @@
 				<div class="ivt2-underline">
 				</div>
 				<div class="ivt2-text">
-					<p class="ivt2t-sm">Coda Resources has an extensive network of</p>
-					<p class="ivt2t-lg">Engineers, Product Testers, Auditors, and Quality Assurance representatives</p>
-					<p class="ivt2t-sm">Across all of their US and Asia locations.</p>
-					<p class="ivt2t-md">QA personnel conduct intensive audits to make sure all products, process &amp; equipment are of the highest quality.</p>
-					<p class="ivt2t-sm">Coda ensures that all product leaving their wholly-owned factories, or any of their partner factories are met with the same tests, audits, and standards.</p>
+					<p class="ivt2t-lg">Coda Resources has an extensive network of engineers, product testers, auditors, and quality assurance representatives across all of their US and Asia locations.</p>
+					<p class="ivt2t-lg">QA personnel conduct intensive audits to make sure all products, process &amp; equipment are of the highest quality.</p>
+					<p class="ivt2t-lg">Coda ensures that all product leaving their wholly-owned factories, or any of their partner factories are met with the same tests, audits, and standards.</p>
 				</div>
 				<div class="ivt2-videolink" id="watch-qa">
-					<div><i class="ivt2-playicon fa fa-play-circle-o fa-3x"></i></div>
-					<div><span class="index-watch-button">Watch Video</span></div>
+					<div class="index-watch-button-container"><span class="index-watch-button">Watch Video</span></div><div class="ivt2-playicon-container"><i class="ivt2-playicon fa fa-play-circle fa-2x"></i></div>
 				</div>
 			</div>
 			<!-- <div class="iist-underline"> -->
@@ -245,13 +238,12 @@
 				<div class="ivt2-underline">
 				</div>
 				<div class="ivt2-text">
-					<p class="ivt2t-sm">Coda's China offices and U.S. offices work together to transform a typical sourcing operation into an efficient powerhouse.</p>
-					<p class="ivt2t-lg">Exact product reproduction <br/>Through vetting for potential vendors <br/>Boots on the ground</p>
-					<p class="ivt2t-sm">Coda's employees can visit vendors on a moment's notice, inspect product before it ships out and solve any problems right at the source.</p>
+					<p class="ivt2t-lg">Coda's China offices and U.S. offices work together to transform a typical sourcing operation into an efficient powerhouse.</p>
+					<p class="ivt2t-lg">Coda is able to produce exact product reproduction by throughly vetting potential vendors and having their own boots on the ground.</p>
+					<p class="ivt2t-lg">Coda's employees can visit vendors on a moment's notice, inspect product before it ships out and solve any problems right at the source.</p>
 				</div>
 				<div class="ivt2-videolink" id="watch-sourcing">
-					<div><i class="ivt2-playicon fa fa-play-circle-o fa-3x"></i></div>
-					<div><span class="index-watch-button">Watch Video</span></div>
+					<div class="index-watch-button-container"><span class="index-watch-button">Watch Video</span></div><div class="ivt2-playicon-container"><i class="ivt2-playicon fa fa-play-circle fa-2x"></i></div>
 				</div>
 			</div>
 			<!-- <div class="iist-underline"> -->
@@ -274,14 +266,12 @@
 				<div class="ivt2-underline">
 				</div>
 				<div class="ivt2-text">
-					<p class="ivt2t-lg">A vertically integrated company,</p>
-					<p class="ivt2t-sm">Coda Resources owns or controls a network of factories in China, 2 sourcing offices in China, and 3 distribution centers in the U.S.</p>
-					<p class="ivt2t-sm">All of these networks are in constant contact with its New York headquarters, ensuring smooth operations from beginning to end.</p>
-					<p class="ivt2t-lg">Coda oversees production, quality control, shipping &amp; logistics, warehousing, distribution, and delivery</p>
+					<p class="ivt2t-lg">A vertically integrated company, Coda Resources owns or controls a network of factories in China, 2 sourcing offices in China, and 3 distribution centers in the U.S.</p>
+					<p class="ivt2t-lg">All of these networks are in constant contact with its New York headquarters, ensuring smooth operations from beginning to end.</p>
+					<p class="ivt2t-lg">Coda oversees production, quality control, shipping &amp; logistics, warehousing, distribution, and delivery.</p>
 				</div>
 				<div class="ivt2-videolink" id="watch-scm">
-					<div><i class="ivt2-playicon fa fa-play-circle-o fa-3x"></i></div>
-					<div><span class="index-watch-button">Watch Video</span></div>
+					<div class="index-watch-button-container"><span class="index-watch-button">Watch Video</span></div><div class="ivt2-playicon-container"><i class="ivt2-playicon fa fa-play-circle fa-2x"></i></div>
 				</div>
 			</div>
 			<!-- <div class="iist-underline"> -->
@@ -305,14 +295,13 @@
 					<!-- <span class="ivt2-underlinetxt-hidden">PARTNERSHIP</span> -->
 				</div>
 				<div class="ivt2-text">
-					<p class="ivt2t-lg">Employees, vendors, and customers are all partners treated with loyalty, commitment, and hornor.</p>
-					<p class="ivt2t-sm">In 1947 after Abraham Tropper founded Coda Resources, he got his customers because of what he offered beyond the product; commitment and service. When your partner succeeds, the whole team succeeds.</p>
-					<p class="ivt2t-sm">Whether you are looking to become a vendor or a customer, Coda Resources invites you to </p>
-					<p class="ivt2t-lg">Partner with us.</p>
+					<p class="ivt2t-lg">Employees, vendors, and customers are all partners treated with loyalty, commitment, and honor.</p>
+					<p class="ivt2t-lg">In 1947 after Abraham Tropper founded Coda Resources, he got his customers because of what he offered beyond the product; commitment and service. </p>
+					<p class="ivt2t-lg">When your partner succeeds, the whole team succeeds.</p>
+					<p class="ivt2t-lg">Whether you are looking to become a vendor or a customer, Coda Resources invites you to partner with us.</p>
 				</div>
 				<div class="ivt2-videolink" id="watch-partnership">
-					<div><i class="ivt2-playicon fa fa-play-circle-o fa-3x"></i></div>
-					<div><span class="index-watch-button">Watch Video</span></div>
+					<div class="index-watch-button-container"><span class="index-watch-button">Watch Video</span></div><div class="ivt2-playicon-container"><i class="ivt2-playicon fa fa-play-circle fa-2x"></i></div>
 				</div>
 			</div>
 			<!-- <div class="iist-underline"> -->
