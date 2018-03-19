@@ -45,14 +45,6 @@
               <div class="tn-inner-table">
                 <div class="row">
                   <div class="col-sm-12">
-                    <!-- <span class="glyphicon glyphicon-earphone ph-icon" aria-hidden="true"></span>
-                    <span class="navi-ph">718.649.1666</span> -->
-                    <!-- <a class="s-icon" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/cambridgeresources/">
-                      <span class="fa fa-facebook-official"></span>
-                    </a>
-                    <a class="s-icon" target="_blank" rel="noopener noreferrer" href="https://twitter.com/CambridgeRes">
-                      <span class="fa fa-twitter-square"></span>
-                    </a> -->
                     <a class="s-icon" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/coda-resources-ltd./">
                       <span class="fa fa-linkedin-square"></span>
                     </a>
@@ -165,11 +157,6 @@
                 <img src="<?php bloginfo('template_directory')?>/images/pipedecor_logo.png" height="9px">
               </a>
             </div>
-            <!-- <div class="nav2-search">
-              <span class="glyphicon glyphicon-search nav2-search-icon"></span>
-              <span class="nav2-search-txt">PRODUCT SEARCH</span>
-              <input type="text" class="search-field" placeholder="KEYWORD / PHRASE / PART#"></input>
-            </div> -->
           </div>  <!-- end tn2-overall-table class  -->
         </div>  <!--  end top-nav2 container  -->
       </div> <!-- end top-nav2 -->
