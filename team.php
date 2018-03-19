@@ -16,6 +16,7 @@
       global $wpdb;
 
       $team = $wpdb->get_results("SELECT * FROM wp_personnel ORDER BY sort ASC;");
+      // echo count($team);
       // print_r(sizeof($team));
       foreach($team as $teaminner) {
         echo "<div class='team-individualimg'>";
@@ -58,7 +59,16 @@
 <div class='team-salesmanager'>
   <div class='container'>
     <div class="team-salesmanager-section">
-      <span>SALES MANAGERS</span>
+      <?php
+        global $wpdb;
+        $salesmanager = $wpdb->get_results("SELECT * FROM wp_codasalesmanager ORDER BY sort ASC;");
+        // echo count($salesmanager);
+        if(count($salesmanager) > 1){
+          echo "<span>SALES MANAGERS</span>";
+        } else {
+          echo "<span>SALES MANAGER</span>";
+        }
+      ?>
       <div class="team-salesmanager-section-underline">
       </div>
     </div>
@@ -70,8 +80,6 @@
     </div>
     <div class='team-salesmanager-container'>
       <?php
-        global $wpdb;
-        $salesmanager = $wpdb->get_results("SELECT * FROM wp_salesmanager ORDER BY sort ASC;");
         foreach ($salesmanager as $salesmanager1){
           echo "<div class='team-salesmanager-each'>";
             echo "<div class='team-salesmanager-img'>";

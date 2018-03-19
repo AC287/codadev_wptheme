@@ -4,59 +4,59 @@
         <div class="footer1-inner-left">
           <a href="<?php echo home_url();?>" class="footer1-maintxt">Home</a>
         </div>
-        <div class="footer1-inner-left">
-          <a href="<?php echo home_url();?>/products/" class="footer1-maintxt">Products</a>
+        <!-- <div class="footer1-inner-left">
+          <a href="<?php //echo home_url();?>/products/" class="footer1-maintxt">Products</a>
           <ul class="footer1-subtxt">
             <li><a href="">Top Seller</a></li>
             <li><a href="">Featured Product</a></li>
-            <li><a href="<?php echo home_url();?>/products/catalogs/">Catalogs</a></li>
+            <li><a href="<?php //echo home_url();?>/products/catalogs/">Catalogs</a></li>
             <li><a href="">Quality</a></li>
             <li><a href="">Warranty</a></li>
           </ul>
-        </div>
+        </div> -->
         <div class="footer1-inner-left">
           <a href="<?php echo home_url();?>/about/" class="footer1-maintxt">About</a>
           <ul class="footer1-subtxt">
             <li><a href="<?php echo home_url();?>/team/">Who We Are</a></li>
-            <li><a href="">Retailers Who Carry Us</a></li>
+            <!-- <li><a href="">Retailers Who Carry Us</a></li> -->
             <li><a href="<?php echo home_url();?>/career/">Careers</a></li>
-            <li><a href="">News</a></li>
+            <!-- <li><a href="">News</a></li> -->
           </ul>
         </div>
         <div class="footer1-inner-left">
-          <a href="" class="footer1-maintxt">Brands</a>
+          <a href="<?php echo home_url();?>/brands/" class="footer1-maintxt">Brands</a>
         </div>
         <div class="footer1-inner-left">
           <a href="<?php echo home_url();?>/contact/" class="footer1-maintxt">Contact Us</a>
-          <ul class="footer1-subtxt">
-            <li><a href="<?php echo home_url();?>/contact/">Customer Service</a></li>
-            <li><a href="<?php echo home_url();?>/contact/">Sales</a></li>
-            <li><a href="<?php echo home_url();?>/contact/">Technical Support</a></li>
-            <!-- <li><a href="<?php echo home_url();?>/contact/">Map</a></li> -->
-          </ul>
+          <!-- <ul class="footer1-subtxt">
+            <li><a href="<?php //echo home_url();?>/contact/">Customer Service</a></li>
+            <li><a href="<?php //echo home_url();?>/contact/">Sales</a></li>
+            <li><a href="<?php //echo home_url();?>/contact/">Technical Support</a></li>
+            <li><a href="<?php //echo home_url();?>/contact/">Map</a></li>
+          </ul> -->
         </div>
-        <div class="footer1-inner-right">
+        <!-- <div class="footer1-inner-right">
           <div class="certifications-txt">CERTIFICATIONS</div>
-          <img src="<?php bloginfo('template_directory')?>/images/certifications3.png"></img>
-        </div>
+          <img src="<?php //bloginfo('template_directory')?>/images/certifications3.png"></img>
+        </div> -->
       </div>
     </div>
     <div class="container footer2">
       <div class="row">
         <div class="col-xs-6 col-sm-6 col-lg-6">
           <div class="copyright">
-            <p>&copy <?php echo date('Y')?> Cambridge Resources. All rights reserved.</p>
+            <p>&copy <?php echo date('Y')?> CODA Resources. All rights reserved.</p>
           </div>
         </div>
         <div class="col-xs-6 col-sm-6 col-lg-6">
           <div class="footer-socialmedia">
-            <a class="navi-margin s-icon" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/cambridgeresources/">
+            <!-- <a class="navi-margin s-icon" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/cambridgeresources/">
               <i class="fa fa-facebook-official"></i>
             </a>
             <a class="navi-margin s-icon" target="_blank" rel="noopener noreferrer" href="https://twitter.com/CambridgeRes">
               <span class="fa fa-twitter-square"></span>
-            </a>
-            <a class="navi-margin s-icon" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/cambridgeresources/">
+            </a> -->
+            <a class="navi-margin s-icon" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/coda-resources-ltd./">
               <span class="fa fa-linkedin-square"></span>
             </a>
           </div>  <!--end footer-socialmedia-->

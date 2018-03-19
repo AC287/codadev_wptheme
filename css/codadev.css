@@ -111,7 +111,7 @@ input:focus::-ms-input-placeholder {
   font-size: 15px;
   font-family: 'Questrial', sans-serif;
 }
-.s-icon {
+a.s-icon {
   font-size: 25px;
   text-decoration: none;
   color: inherit;
@@ -179,7 +179,7 @@ input:focus::-ms-input-placeholder {
 }
 .navi1-btn a .header-navi-selector {
   /*content: "";*/
-  display: none;
+  /* display: none; */
   /*display: block;*/
   margin: 0 auto;
   width: 30px;
@@ -195,6 +195,9 @@ input:focus::-ms-input-placeholder {
   /*margin-top: 0;*/
   /*text-align: center;*/
   /*padding-bottom: 5px;*/
+}
+.navi1-btn a:hover .header-navi-selector{
+  display: block !important;
 }
 .tn2-overall-table {
   margin: 0;
@@ -336,6 +339,9 @@ input:focus::-ms-input-placeholder {
   float: right;
   /*padding-right: 15px;*/
 }
+.copyright {
+  padding-top: 5px;
+}
 
 @media screen and (max-width: 1000px) {
   .footer1-inner-right, .footer1-inner-left {
@@ -354,10 +360,17 @@ input:focus::-ms-input-placeholder {
 }
 .about-beginning-title {
   position: absolute;
-  z-index: 3;
-  top: 65%;
-  text-align: center;
-  width: 100%;
+  /* z-index: 3; */
+  /* top: 65%; */
+  /* text-align: center; */
+  /* width: 100%; */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 50%;
+  height: 25%;
+  margin: auto;
 }
 .index-title1 {
   text-align: center;
@@ -372,7 +385,7 @@ input:focus::-ms-input-placeholder {
   font-size: 75pt;
   letter-spacing: 2px;
   color: #fff;
-  text-shadow: 2px 2px 8px #000;
+  /* text-shadow: 2px 2px 8px #000; */
   /*border-bottom: 4px solid #003DA5;*/
 }
 .index-title1-underline {
@@ -401,13 +414,22 @@ input:focus::-ms-input-placeholder {
   .index-inthebeginning-contents{
     padding-top: 25px;
   }
-  .about-beginning-title {
-    top: 50%;
-  }
+}
+@media screen and (max-width: 995px) and (min-width: 401px) {
   .index-title1 span {
     font-size: 45pt;
     line-height: 50px;
-    text-shadow: 2px 2px 8px #000;
+  }
+}
+@media screen and (max-width: 400px) {
+  .index-title1 span {
+    font-size: 25pt;
+    line-height: 30px;
+  }
+  .index-title1-underline {
+    /* margin: 0 auto; */
+    width: 100px;
+    border-bottom: 2px solid #fff;
   }
 }
 .index-inthebeginning-img {
@@ -1066,7 +1088,7 @@ section.index-is-container {
   /*background-color: #F1F2F2;*/
   background-color: #F8F8F9;
   padding: 30px 0px 30px 0px;
-  min-height: 70vh;
+  min-height: 75vh;
 }
 .overall-brands-container {
   display: -webkit-box;
