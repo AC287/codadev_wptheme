@@ -21,6 +21,8 @@
 					<div class="ib-wrapper">
 						<div class="ib-txt">
 							<span>Research &amp; Development</span>
+							<div class="index-title1-underline">
+							</div>
 						</div>
 					</div>
 				</div> <!--  end RD  -->
@@ -31,6 +33,8 @@
 					<div class="ib-wrapper">
 						<div class="ib-txt">
 							<span>Manufacturing</span>
+							<div class="index-title1-underline">
+							</div>
 						</div>
 					</div>
 				</div>
@@ -41,6 +45,8 @@
 					<div class="ib-wrapper">
 						<div class="ib-txt">
 							<span>Quality Assurance</span>
+							<div class="index-title1-underline">
+							</div>
 						</div>
 					</div>
 				</div>
@@ -51,6 +57,8 @@
 					<div class="ib-wrapper">
 						<div class="ib-txt">
 							<span>Sourcing</span>
+							<div class="index-title1-underline">
+							</div>
 						</div>
 					</div>
 				</div>
@@ -61,6 +69,8 @@
 					<div class="ib-wrapper">
 						<div class="ib-txt">
 							<span>Supply Chain Management</span>
+							<div class="index-title1-underline">
+							</div>
 						</div>
 					</div>
 				</div>
@@ -71,6 +81,8 @@
 					<div class="ib-wrapper">
 						<div class="ib-txt">
 							<span>Partnership</span>
+							<div class="index-title1-underline">
+							</div>
 						</div>
 					</div>
 				</div>
@@ -299,7 +311,6 @@
 			PARTNERSHIP
 		</div>
 		<div class="ivt2-underline">
-			<!-- <span class="ivt2-underlinetxt-hidden">PARTNERSHIP</span> -->
 		</div>
 		<div class="ivt2-text">
 			<p class="ivt2t-lg">Employees, vendors, and customers are all partners treated with loyalty, commitment, and honor.</p>
