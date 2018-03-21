@@ -526,7 +526,8 @@ a.s-icon {
 .index-tl-item:after {
   /*background: rgba(3, 22, 37, 0.85);*/
   /* background: #0d1778; */
-  background: #8b8c8d;
+  /* background-color: #8b8c8d; */
+  background-color: #c4c4c4;
   opacity: 1;
   -webkit-transition: opacity 0.5s ease;
   transition: opacity 0.5s ease;
@@ -605,11 +606,15 @@ a.s-icon {
   margin: 10px 0px 5px 0px;
 }
 
-.index-tl-item:nth-of-type(odd) .index-tl-bg {
+/* .index-tl-item:nth-of-type(odd) .index-tl-bg {
   background-color: #003DA5;
 }
 .index-tl-item:nth-of-type(even) .index-tl-bg {
   background-color: #70bdff;
+} */
+
+.index-tl-item .index-tl-bg {
+  background-color: #003DA5;
 }
 
 /* .index-tl-bg {
