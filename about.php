@@ -34,7 +34,7 @@
 
 <div id="index-timeline">
   <div class="index-tl-item">
-    <div class="index-tl-bg" style="background-color: #003DA5"></div>
+    <div class="index-tl-bg" ></div>
     <div class="index-tl-year">
       <p>1947</p>
     </div>
@@ -44,7 +44,7 @@
     </div>
   </div>
   <div class="index-tl-item">
-    <div class="index-tl-bg" style="background-color: #70bdff"></div>
+    <div class="index-tl-bg" ></div>
     <div class="index-tl-year">
       <p>1970's</p>
     </div>
@@ -53,7 +53,7 @@
     </div>
   </div>
   <div class="index-tl-item">
-    <div class="index-tl-bg" style="background-color: #003DA5"></div>
+    <div class="index-tl-bg" ></div>
     <div class="index-tl-year">
       <p>1990's</p>
     </div>
@@ -62,7 +62,7 @@
     </div>
   </div>
   <div class="index-tl-item">
-    <div class="index-tl-bg" style="background-color: #70bdff"></div>
+    <div class="index-tl-bg" ></div>
     <div class="index-tl-year">
       <p>1998</p>
     </div>
@@ -71,7 +71,7 @@
     </div>
   </div>
 	<div class="index-tl-item">
-		<div class="index-tl-bg" style="background-color: #003DA5"></div>
+		<div class="index-tl-bg" ></div>
 		<div class="index-tl-year">
 			<p>2000</p>
 		</div>
@@ -80,7 +80,7 @@
 		</div>
 	</div>
 	<div class="index-tl-item">
-		<div class="index-tl-bg" style="background-color: #70bdff"></div>
+		<div class="index-tl-bg" ></div>
 		<div class="index-tl-year">
 			<p>2013</p>
 		</div>
@@ -89,7 +89,7 @@
 		</div>
 	</div>
 	<div class="index-tl-item">
-		<div class="index-tl-bg" style="background-color: #003DA5"></div>
+		<div class="index-tl-bg" ></div>
 		<div class="index-tl-year">
 			<p>2014</p>
 		</div>
@@ -98,7 +98,7 @@
 		</div>
 	</div>
 	<div class="index-tl-item">
-		<div class="index-tl-bg" style="background-color: #70bdff"></div>
+		<div class="index-tl-bg" ></div>
 		<div class="index-tl-year">
 			<p>2015</p>
 		</div>

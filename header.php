@@ -138,26 +138,26 @@
         <div class="container">
           <div class="tn2-overall-table">
             <div class="nav2">
-              <span>OUR BRANDS</span>
+              <a href="<?php echo home_url();?>/brands/"><span>OUR BRANDS</span></a>
             </div>
             <div class="nav2-logo nav2-cambridge">
               <a href="http://www.cambridgeresources.com/" target="_blank" rel="noopener noreferrer">
-                <img src="<?php bloginfo('template_directory')?>/images/cambridgelogo_blue.png" height="25px" >
+                <img src="<?php bloginfo('template_directory')?>/images/cambridgelogo_blue.png">
               </a>
             </div>
             <div class="nav2-logo nav2-amram">
               <a href="" target="_blank" rel="noopener noreferrer">
-                <img src="<?php bloginfo('template_directory')?>/images/AMRAM_Logo_001.png" height="15px">
+                <img src="<?php bloginfo('template_directory')?>/images/AMRAM_Logo_001.png">
               </a>
             </div>
             <div class="nav2-logo nav2-ldr">
               <a href="http://www.ldrind.com/" target="_blank" rel="noopener noreferrer">
-                <img src="<?php bloginfo('template_directory')?>/images/LDR_LOGO.png" height="20px">
+                <img src="<?php bloginfo('template_directory')?>/images/LDR_LOGO.png">
               </a>
             </div>
             <div class="nav2-logo nav2-pipedecor">
               <a href="http://pipe-decor.com/" target="_blank" rel="noopener noreferrer">
-                <img src="<?php bloginfo('template_directory')?>/images/pipedecor_logo.png" height="9px">
+                <img src="<?php bloginfo('template_directory')?>/images/pipedecor_logo.png">
               </a>
             </div>
           </div>  <!-- end tn2-overall-table class  -->
