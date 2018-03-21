@@ -673,13 +673,11 @@ a.s-icon {
   display: -webkit-flex;
   display: flex;
   align-items: center;
-  justify-content: center;
-  /* z-index: 1; */
-  /* top: 40%; */
+  /* justify-content: center; */
   top: 0%;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,0.1);
+  background-color: rgba(0,0,0,0.2);
   text-align: center;
 }
 .ib-txt {
