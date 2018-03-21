@@ -142,22 +142,22 @@
             </div>
             <div class="nav2-logo nav2-cambridge">
               <a href="http://www.cambridgeresources.com/" target="_blank" rel="noopener noreferrer">
-                <img src="<?php bloginfo('template_directory')?>/images/cambridgelogo_blue.png">
+                <img src="<?php bloginfo('template_directory')?>/images/brands/cambridge_pms293.png">
               </a>
             </div>
             <div class="nav2-logo nav2-amram">
               <a href="" target="_blank" rel="noopener noreferrer">
-                <img src="<?php bloginfo('template_directory')?>/images/AMRAM_Logo_001.png">
+                <img src="<?php bloginfo('template_directory')?>/images/brands/amram_logo.png">
               </a>
             </div>
             <div class="nav2-logo nav2-ldr">
               <a href="http://www.ldrind.com/" target="_blank" rel="noopener noreferrer">
-                <img src="<?php bloginfo('template_directory')?>/images/LDR_LOGO.png">
+                <img src="<?php bloginfo('template_directory')?>/images/brands/ldr_logo.png">
               </a>
             </div>
             <div class="nav2-logo nav2-pipedecor">
               <a href="http://pipe-decor.com/" target="_blank" rel="noopener noreferrer">
-                <img src="<?php bloginfo('template_directory')?>/images/pipedecor_logo.png">
+                <img src="<?php bloginfo('template_directory')?>/images/brands/pipedecor_logo.png">
               </a>
             </div>
           </div>  <!-- end tn2-overall-table class  -->

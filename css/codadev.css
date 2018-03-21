@@ -202,6 +202,12 @@ a.s-icon {
 .tn2-overall-table {
   margin: 0;
   width: 100%;
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  justify-content: flex-start;
 }
 .top-nav2 {
   padding-top: 5px;
@@ -217,18 +223,20 @@ a.s-icon {
   float: left;
   padding-top: 14px;
   padding-bottom: 5px;
+  margin-right: 10px;
 }
 .nav2 a {
   text-decoration: none;
   /* color: #000; */
 }
 .nav2-logo {
-  display: block;
-  float: left;
+  /* display: block; */
+  /* float: left; */
+  margin: 0px 10px 0px 10px;
 }
 .nav2-logo a {
   text-decoration: none;
-  padding-left: 20px;
+  /* padding-left: 20px; */
 }
 /* .nav2,
 .nav2-logo:not(.nav2-coda) {
@@ -239,7 +247,7 @@ a.s-icon {
   height: 25px;
 }
 .nav2-amram a img {
-  height: 15px;
+  height: 12px;
 }
 .nav2-ldr a img {
   height: 20px;
@@ -259,7 +267,7 @@ a.s-icon {
   }
   .nav2-logo a {
     text-decoration: none;
-    padding-left: 10px;
+    /* padding-left: 10px; */
   }
   /* .nav2,
   .nav2-logo:not(.nav2-coda) {
@@ -267,10 +275,11 @@ a.s-icon {
     padding-bottom: 5px;
   } */
   .nav2-cambridge a img {
+    /* padding-top: 2px; */
     height: 20px;
   }
   .nav2-amram a img {
-    height: 12px;
+    height: 9.6px;
   }
   .nav2-ldr a img {
     height: 16px;
@@ -278,8 +287,8 @@ a.s-icon {
   .nav2-pipedecor a img {
     height: 7.2px;
   }
-  .nav2-cambridge, .nav2-amram, .nav2-ldr, .nav2-pipedecor {
-    padding-top: 8px;
+  .nav2-amram, .nav2-ldr, .nav2-pipedecor {
+    padding-top: 7px;
   }
 }
 
