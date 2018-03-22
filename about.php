@@ -87,7 +87,7 @@
 			<p>2013</p>
 		</div>
 		<div class="index-tl-content">
-			<p>Cambridge introduces the ZipIts&trade; Retail Product Line</p>
+			<p>Under Coda, Cambridge introduces the ZipIts&trade; Retail Product Line</p>
 		</div>
 	</div>
 	<div class="index-tl-item">
