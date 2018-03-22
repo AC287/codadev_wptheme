@@ -6,10 +6,12 @@
 		<img src="<?php bloginfo('template_directory')?>/images/banners/about-banner-nyc.jpg">
 	</div>
 	<div class="about-beginning-title">
-		<div class="index-title1">
-			<span>IN THE BEGINNING</span>
-		</div>
-		<div class="index-title1-underline">
+		<div class="abt-container">
+			<div class="index-title1">
+				<span>IN THE BEGINNING</span>
+			</div>
+			<div class="index-title1-underline">
+			</div>
 		</div>
 	</div>
 </div>
