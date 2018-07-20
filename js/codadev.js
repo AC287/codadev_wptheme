@@ -3,6 +3,9 @@ jQuery(document).ready(function($) {
   //   console.log('CLICKED HEHEHE');
   // })
 
+  // GET window size:
+  var curWindow
+
   $('.header-navicon').click(function(){
     var x = $('#header-rnav').attr('class').split(' ');
     // console.log(x.length);
@@ -215,6 +218,13 @@ source: https://stackoverflow.com/questions/12522291/pausing-youtube-iframe-api-
     }
   })
   */
+
+  $(window).resize(function(){
+    var winHeight = $(window).height(),
+        winWidth = $(window).width();
+
+    console.log(winWidth+', '+winHeight);
+  })
 
   $('.ivt2-videolink').click(function(){
     var curId = $(this).attr('id').split('-')[1];
