@@ -4,7 +4,9 @@ jQuery(document).ready(function($) {
   // })
 
   // GET window size:
-  var curWindow
+  var curWinWidth = $(window).width();
+
+  console.log(curWinWidth);
 
   $('.header-navicon').click(function(){
     var x = $('#header-rnav').attr('class').split(' ');
