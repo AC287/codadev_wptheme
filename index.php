@@ -320,16 +320,23 @@
 		</div>
 		<div class="ivt2-videolink" id="watch-partnership">
 			<div class="ivt2-playicon-container"><i class="ivt2-playicon fa fa-play-circle fa-2x"></i></div>
-			<div class="index-watch-button-container"><span class="index-watch-button">Watch Video</span></div>
+			<div class="index-watch-button-container"><a href="#popupVideo" data-rel="popup" data-position-to="window" class="index-watch-button">Watch Video</a></div>
 		</div>
 	</div>
 	<!-- <div class="iist-underline"> -->
 	<!-- </div> -->
 </div>
 </section>
-
-<div class="video-modal">
-	<span class='video-close glyphicon glyphicon-remove'></span>
+<div data-role="popup" id="popupVideo" data-overlay-theme="b" data-theme="a" data-tolerance="15,15" class="ui-content">
+    <iframe src="http://player.vimeo.com/video/41135183?portrait=0" width="497" height="298" seamless=""></iframe>
+</div>
+<!-- <div class="video-modal"> -->
+	<!--
+		https://blog.theodo.fr/2018/01/responsive-iframes-css-trick/
+		https://www.rtings.com/tv/learn/what-is-the-aspect-ratio-4-3-16-9-21-9
+		https://getbootstrap.com/docs/4.1/utilities/embed/
+	-->
+	<!-- <span class='video-close glyphicon glyphicon-remove'></span>
 	<div class="vm-container">
 		<div class="vm-content" id="iv-rd">
 			<iframe width="640" height="360" src="https://www.youtube.com/embed/dnOKgwbU7lg?controls=1&amp;rel=0&amp;enablejsapi=1&amp;showinfo=0&amp;loop=1&amp;playlist=dnOKgwbU7lg" frameborder="0" allowfullscreen id="playerrd" class="ytplayer"></iframe>
@@ -349,8 +356,8 @@
 		<div class="vm-content" id="iv-partnership">
 			<iframe width="640" height="360" src="https://www.youtube.com/embed/cO048hRcbC4?controls=1&amp;rel=0&amp;enablejsapi=1&amp;showinfo=0&amp;loop=1&amp;playlist=cO048hRcbC4" frameborder="0" allowfullscreen id="playerpartnership" class="ytplayer"></iframe>
 		</div>
-	</div>
-</div>
+	</div> -->
+<!-- </div> -->
 
 
 </div>	<!-- end index-allis-container  -->
