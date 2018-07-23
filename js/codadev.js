@@ -6,7 +6,10 @@ jQuery(document).ready(function($) {
   // GET window size:
   var curWinWidth = $(window).width();
 
-  console.log(curWinWidth);
+  // console.log(curWinWidth);
+
+
+  // console.log(aspectRatio);
 
   $('.header-navicon').click(function(){
     var x = $('#header-rnav').attr('class').split(' ');
@@ -221,11 +224,20 @@ source: https://stackoverflow.com/questions/12522291/pausing-youtube-iframe-api-
   })
   */
 
-  $(window).resize(function(){
-    var winHeight = $(window).height(),
-        winWidth = $(window).width();
+  if(curWinWidth < 640) {
+    reSizeVideo(curWinWidth);
+  }
 
-    console.log(winWidth+', '+winHeight);
+  $(window).resize(function(){
+    var winHeight = $(window).height();
+    var winWidth = $(window).width();
+
+    // console.log(winWidth+', '+winHeight);
+    if(winWidth < 640) {
+      reSizeVideo(winWidth);
+    } else {
+      reSizeVideo(640);
+    }
   })
 
   $('.ivt2-videolink').click(function(){
@@ -253,6 +265,14 @@ source: https://stackoverflow.com/questions/12522291/pausing-youtube-iframe-api-
     })
   })
 
+  function reSizeVideo(curWidth) {
+    $('.vm-content').each(function(index){
+      // console.log($(this).find('iframe'));
+      $(this).children().attr('width',curWidth);
+      var newHeight = Math.round((360/640)*curWidth);
+      $(this).children().attr('height',newHeight);
+    })
+  }
 
   /*
   - - - TEAM PAGE - - -
