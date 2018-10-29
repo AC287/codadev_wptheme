@@ -38,10 +38,10 @@
         $contents = "Name: $name \nEmail: $email \nPhone: $phone \nCompany: $company \nMessage: $message";
 
         //php mailer variables
-        $to = "arthurchen@cambridgeresources.com, arthurchen287@gmail.com";
+        $to = "arthurchen@codaresources.com, arthurchen287@gmail.com";
         $subject = "Coda web contact from $name";
         $headers = array(
-          'From: Web Contact Form <no-reply@cambridgeresources.com>',
+          'From: Web Contact Form <no-reply@codaresources.com>',
           'Reply-To: '.$email
         );
         $headers = implode("\r\n", $headers);
