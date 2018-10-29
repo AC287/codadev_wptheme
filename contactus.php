@@ -1,6 +1,9 @@
 <!--  Template Name: Contact Us  -->
 
-<?php get_header();?>
+<?php
+  wp_enqueue_script('google-recaptcha', 'https://www.google.com/recaptcha/api.js');
+  get_header();
+?>
 
 <div class='contact-banner'>
   <div class='cb-img'>
@@ -23,7 +26,7 @@
     </div>
     <div class='.contact-form-input'>
       <?php echo $response; ?>
-      <form action='<?php the_permalink();?>success' method='post' class='row'>
+      <form action='<?php the_permalink();?>success' method='post' class='row' autocomplete="off" id="contact_form">
       <!-- <form action='<?php //echo esc_url(admin_url('admin-post.php'));?>' method='post' class='row'> -->
         <div class='form-group contact-sm-input col-sm-6'>
           <input type='text' name='contact-name' placeholder='Name' required>
@@ -39,6 +42,9 @@
         </div>
         <div class='form-group contact-message col-sm-12'>
           <textarea type='text' name='contact-message' placeholder='Type your message here' required></textarea>
+        </div>
+        <div class='form-group contact-nonrobot col-sm-12'>
+          <div class='g-recaptcha' data-sitekey='6LfmTHYUAAAAAJ3clYNDURExFe6U7bQtqkxuci96'></div>
         </div>
         <div class='form-group contact-submit'>
           <input type='hidden' name='submitted' value='1'>

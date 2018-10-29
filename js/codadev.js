@@ -341,6 +341,19 @@ source: https://stackoverflow.com/questions/12522291/pausing-youtube-iframe-api-
     })
   })
 
+  $('#contact_form').on("submit", function(e) {
+    e.preventDefault();
 
+    var captcharesponse = grecaptcha.getResponse();
+
+    if(captcharesponse == '') {
+      alert('Please check the captcha!');
+    }
+
+    if(captcharesponse != ''){
+      $('#contact_form')[0].submit();
+    }
+
+  })
 
 })
