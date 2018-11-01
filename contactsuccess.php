@@ -41,7 +41,7 @@
         $to = "arthurchen@codaresources.com, arthurchen287@gmail.com";
         $subject = "Coda web contact from $name";
         $headers = array(
-          'From: CODA Web Contact Form <no-reply@codaresources.com>',
+          // 'From: CODA Web Contact Form <no-reply@codaresources.com>',
           'Reply-To: '.$email
         );
         $headers = implode("\r\n", $headers);
