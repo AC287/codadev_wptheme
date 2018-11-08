@@ -161,7 +161,7 @@
               </a>
             </div>
             <div class="nav2-logo nav2-amram">
-              <a href="" target="_blank" rel="noopener noreferrer">
+              <a href="http://www.codarss.com" target="_blank" rel="noopener noreferrer">
                 <img src="<?php bloginfo('template_directory')?>/images/brands/amram_logo.png">
               </a>
             </div>
