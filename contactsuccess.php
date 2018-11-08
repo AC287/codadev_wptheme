@@ -38,7 +38,7 @@
         $contents = "Name: $name \nEmail: $email \nPhone: $phone \nCompany: $company \nMessage: $message";
 
         //php mailer variables
-        $to = "arthurchen@codaresources.com, arthurchen287@gmail.com";
+        $to = "info@codaresources.com, sneuman@codaresources.com";
         $subject = "Coda web contact from $name";
         $headers = array(
           // 'From: CODA Web Contact Form <no-reply@codaresources.com>',
