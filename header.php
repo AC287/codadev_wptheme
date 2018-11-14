@@ -6,34 +6,15 @@
     <!-- <title><?php bloginfo('name');?></title> -->
     <?php wp_head(); ?>
     <!-- <title>CODA DEVELOPMENT</title> -->
-    <?php
-      $curLocation = $_SERVER['REQUEST_URI'];
-      $curLocationArr = array_values(array_filter(explode('/',$curLocation)));
-      //Split string at "/" and make the string into array. array_filter remove empty array element. array_values restructure array.
-      // print_r($_SERVER);
-      if($_SERVER["REMOTE_ADDR"]=="127.0.0.1"){   //Set whether this is dev or live.
-        $local=True;
-        // array_splice($curLocationArr, 0, 1); // This removes local 1st folder path.
-        unset($curLocationArr[0]);
-        $curLocationArr = array_values($curLocationArr);
-
-      } else {
-        $local=False;
-
-      }
-
-      for($x=0; $x < count($curLocationArr); $x++){
-        if((int)$curLocationArr[$x]!=0) {
-          $curLocationArr[$x] = (int)$curLocationArr[$x];
-        }
-      }
-    ?>
 
     <?php include 'phpsnippet/titletag.php';?>
 
   </head>
 
   <body>
+
+    <?php include 'phpsnippet/serverlocation.php';?>
+
     <div id="all-container">
       <div class="top-nav">
         <div class="container">
@@ -156,7 +137,7 @@
               <a href="<?php echo home_url();?>/brands/"><span>OUR BRANDS</span></a>
             </div>
             <div class="nav2-logo nav2-cambridge">
-              <a href="http://www.cambridgeresources.com/" target="_blank" rel="noopener noreferrer">
+              <a href="<?php echo $cambridgeSite ?>" target="_blank" rel="noopener noreferrer">
                 <img src="<?php bloginfo('template_directory')?>/images/brands/cambridge_pms293.png">
               </a>
             </div>
@@ -166,7 +147,7 @@
               </a>
             </div>
             <div class="nav2-logo nav2-ldr">
-              <a href="http://www.ldrind.com/" target="_blank" rel="noopener noreferrer">
+              <a href="<?php echo $ldrSite ?>" target="_blank" rel="noopener noreferrer">
                 <img src="<?php bloginfo('template_directory')?>/images/brands/ldr_logo.png">
               </a>
             </div>
