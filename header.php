@@ -6,15 +6,12 @@
     <!-- <title><?php bloginfo('name');?></title> -->
     <?php wp_head(); ?>
     <!-- <title>CODA DEVELOPMENT</title> -->
-
+    <?php include 'phpsnippet/serverlocation.php';?>
     <?php include 'phpsnippet/titletag.php';?>
 
   </head>
 
   <body>
-
-    <?php include 'phpsnippet/serverlocation.php';?>
-
     <div id="all-container">
       <div class="top-nav">
         <div class="container">
