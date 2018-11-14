@@ -27,21 +27,25 @@
   $ldrSite = "";
   switch($curServer) {
     case "127.0.0.1":
+      //local server
       $cambridgeSite = "http://127.0.0.1/product-demo/";
       $codaSite = "http://127.0.0.1/codadev/";
       $ldrSite = "http://127.0.0.1/ldr/";
     break;
     case "test3.arthurchen.info":
+      //personal test server on HostGator.
       $cambridgeSite = "http://test1.arthurchen.info/";
       $codaSite = "http://test2.arthurchen.info/";
       $ldrSite = "http://test3.arthurchen.info/";
     break;
     case "ldr.codacambridge.com":
+      //Final test server on Bluehost.
       $cambridgeSite = "http://cambridge.codacambridge.com/";
       $codaSite = "http://coda.codacambridge.com/";
       $ldrSite = "http://ldr.codacambridge.com";
     break;
     case "ldrind.com":
+      //LIVE
       $cambridgeSite = "http://cambridgeresources.com/";
       $codaSite = "http://codaresources.com/";
       $ldrSite = "http://ldrind.com/";
