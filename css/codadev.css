@@ -504,10 +504,16 @@ a.s-icon {
 }
 
 .index-tl-item {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
   position: relative;
-  width: 12.5%;
+  width: 14.5%;
   height: 40vh;
   min-height: 250px;
   color: #fff;
@@ -649,21 +655,21 @@ a.s-icon {
           filter: grayscale(0);
 }
 
-@media screen and (min-width: 1301px) {
+@media screen and (min-width: 1401px) {
   .index-tl-content {
-    top: 40%;
+    top: 30%;
     padding: 1.5em;
     font-size: 14pt;
   }
 }
-@media screen and (min-width: 1200px) and (max-width: 1300px) {
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
   .index-tl-content {
-    top: 50%;
+    top: 30%;
     padding: 1.5em;
     font-size: 12pt;
   }
 }
-@media screen and (max-width: 1199px) and (min-width: 750px){
+@media screen and (max-width: 1199px) and (min-width: 850px){
   .index-tl-content {
     top: 40%;
     padding: 25px;
@@ -671,13 +677,22 @@ a.s-icon {
   }
 }
 
-@media screen and (max-width: 749px) {
+@media screen and (max-width: 849px) and (min-width: 451px) {
   .index-tl-content {
     top: 38%;
     padding: 10px;
-    font-size: 8pt;
+    font-size: 9pt;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .index-tl-content {
+    top: 38%;
+    padding: 10px;
+    font-size: 7pt;
+  }
+}
+
 @media screen and (max-width: 420px) {
   .index-tl-year p {
     font-size: 12pt;
@@ -1251,6 +1266,12 @@ section.index-is-container {
   opacity: 0.9;
 }
 .brandsoverlay-text {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; 
   /*margin-top: 80px;*/
   color: #fff;
   background-color: #000000;
