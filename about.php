@@ -22,7 +22,7 @@
 		</div>
 		<div class="index-inthebeginning-contents">
 			<p class="index-content1">
-				In 1947, Abraham “The Chief” Tropper founded Coda Resources in New York City’s Garment District in the Lower East Side of Manhattan. With humble beginnings as a sewing notions supply company, Coda Resources developed into a multi-national enterprise that, today, includes Cambridge, LDR, Coda Retail Supply Solutions, and Amram Brands.
+				In 1947, Abraham “The Chief” Tropper founded Coda Resources in New York City’s Garment District in the Lower East Side of Manhattan. With humble beginnings as a sewing notions supply company, Coda Resources developed into a multi-national enterprise that, today, includes Cambridge, STZ, Coda Retail Supply Solutions, and Amram Brands.
 			</p>
 			<p class="index-content1">
 				Abraham Tropper founded Coda Resources upon the simple principle of offering unparalleled service and high quality products. More than 70 years later, his family still operates the business with these values in mind.
@@ -97,6 +97,16 @@
 		</div>
 		<div class="index-tl-content">
 			<p>Coda Resources acquires LDR Global industries.</p>
+		</div>
+	</div>
+	<div class="index-tl-item">
+		<div class="index-tl-bg" ></div>
+		<div class="index-tl-year">
+			<p>2019</p>
+		</div>
+		<div class="index-tl-content">
+			<!-- <h1 class="about-f3 text-accent ttu">Phasellus mauris elit</h1> -->
+			<p>Coda Resources sells LDR Fashion line. STZ entity is formed replacing LDR's rough plumbing offering.</p>
 		</div>
 	</div>
 </div>	<!--	This end timeline section. -->
