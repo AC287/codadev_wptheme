@@ -23,15 +23,6 @@
   <div class="container">
     <div class="tn-img">
       <img src="<?php bloginfo('template_directory')?>/images/IL60139.jpg">
-      <div class="tn-content">
-        <div class="tn-title">
-          <div>Moving in Q1 2020.</div>
-          <div class="tn-titlemini">Regional HQ &amp; Distribution Center.</div>
-        </div>
-        <div class="tn-txt">
-          <p>990 E North Avenue<br/>Glendale Heights, IL 60139</p>
-        </div>
-      </div>
     </div>
   </div>  <!--  end container  -->
 </div>
@@ -76,7 +67,7 @@
       </div>
       <div class='contact-phaddress-address'>
         <p><strong>Corporate HQ:</strong> 100 Matawan Rd. Suite 300, Matawan, NJ 07747</p>
-        <p><strong>Regional HQ:</strong> 600 N. Kilbourn Chicago, IL 60624</p>
+        <p><strong>Regional HQ:</strong> 990 E North Ave. Glendale Heights, IL 60139</p>
       </div>
     </div>
 
