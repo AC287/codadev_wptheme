@@ -14,7 +14,7 @@
 				<li data-target="#myCarousel" data-slide-to="5"></li>
 			</ol> -->
 			<div class="carousel-inner" role="listbox">
-				<div class="item active">
+				<div class="carousel-item active">
 					<div class="ib-img">
 						<img src="<?php bloginfo('template_directory')?>/images/banners/coda-rdv1.jpg">
 					</div>
@@ -26,7 +26,7 @@
 						</div>
 					</div>
 				</div> <!--  end RD  -->
-				<div class="item">
+				<div class="carousel-item">
 					<div class="ib-img">
 						<img src="<?php bloginfo('template_directory')?>/images/banners/coda-manufacturingv1.jpg">
 					</div>
@@ -38,7 +38,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="item">
+				<div class="carousel-item">
 					<div class="ib-img">
 						<img src="<?php bloginfo('template_directory')?>/images/banners/coda-qav1.jpg">
 					</div>
@@ -50,7 +50,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="item">
+				<div class="carousel-item">
 					<div class="ib-img">
 						<img src="<?php bloginfo('template_directory')?>/images/banners/coda-sourcingv1.jpg" height="100%" width="100%">
 					</div>
@@ -62,7 +62,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="item">
+				<div class="carousel-item">
 					<div class="ib-img">
 						<img src="<?php bloginfo('template_directory')?>/images/banners/coda-scmv1.jpg">
 					</div>
@@ -74,7 +74,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="item">
+				<div class="carousel-item">
 					<div class="ib-img">
 						<img src="<?php bloginfo('template_directory')?>/images/banners/coda-partnershipv1.jpg">
 					</div>
@@ -87,13 +87,14 @@
 					</div>
 				</div>
 			</div> <!-- end carousel-inner -->
-			<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-				<span class="sr-only">Previous</span>
+
+			<a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
 			</a>
-			<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-				<span class="sr-only">Next</span>
+			<a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
 			</a>
 		</div> <!-- end myCarousel -->
 	</div> <!--  end index-banner  -->
