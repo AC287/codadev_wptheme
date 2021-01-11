@@ -22,7 +22,7 @@
 <div class="temp-notice">
   <div class="container">
     <div class="tn-img">
-      <img src="<?php bloginfo('template_directory')?>/images/IL60139.jpg">
+      <img src="<?php bloginfo('template_directory')?>/images/IL60148.jpg">
     </div>
   </div>  <!--  end container  -->
 </div>
@@ -67,7 +67,7 @@
       </div>
       <div class='contact-phaddress-address'>
         <p><strong>Corporate HQ:</strong> 100 Matawan Rd. Suite 300, Matawan, NJ 07747</p>
-        <p><strong>Regional HQ:</strong> 990 E North Ave. Glendale Heights, IL 60139</p>
+        <p><strong>Regional HQ:</strong> 990 E North Ave. Glendale Heights, IL 60148</p>
       </div>
     </div>
 
